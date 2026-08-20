@@ -163,6 +163,11 @@ def create_data_pipeline(
         generator=test_generator,
         **shared_options,
     )
+    print(
+        f"DataLoader 构建完成：train={len(train_loader)} batches, "
+        f"test={len(test_loader)} batches, "
+        f"num_workers={worker_count}, pin_memory={pin_memory}"
+    )
     return NinaProDataPipeline(train_loader, test_loader, normalization)
 
 
