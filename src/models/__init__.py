@@ -1,5 +1,5 @@
 """项目模型包。"""
 
-from .snn import NinaProSNN
+from .snn import DropoutPLIFSNN, NinaProSNN
 
-__all__ = ["NinaProSNN"]
+__all__ = ["DropoutPLIFSNN", "NinaProSNN"]

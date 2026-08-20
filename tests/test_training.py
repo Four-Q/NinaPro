@@ -14,6 +14,7 @@ from src.training import (
     save_checkpoint,
     seed_everything,
 )
+from src.training.engine import _create_learning_rate_scheduler
 
 
 class TinyClassifier(nn.Module):
@@ -97,6 +98,33 @@ def test_checkpoint_restores_model_optimizer_scheduler_and_metadata(tmp_path):
     assert loaded["history"][0]["train_loss"] == 0.5
     assert loaded["config"]["selection_split"] == "test"
     assert torch.equal(loaded["normalization_state"]["std"], torch.ones(2))
+
+
+def test_learning_rate_uses_five_epoch_warmup_then_ninety_five_epoch_cosine():
+    parameter = nn.Parameter(torch.tensor(1.0))
+    optimizer = torch.optim.SGD([parameter], lr=1e-2)
+    scheduler, effective_warmup_epochs = _create_learning_rate_scheduler(
+        optimizer,
+        epochs=100,
+        warmup_epochs=5,
+        warmup_start_factor=0.2,
+    )
+    learning_rates = []
+
+    for _ in range(100):
+        learning_rates.append(optimizer.param_groups[0]["lr"])
+        optimizer.step()
+        scheduler.step()
+
+    assert effective_warmup_epochs == 5
+    assert learning_rates[:6] == pytest.approx(
+        [0.002, 0.0036, 0.0052, 0.0068, 0.0084, 0.01]
+    )
+    assert all(
+        left > right
+        for left, right in zip(learning_rates[5:], learning_rates[6:])
+    )
+    assert optimizer.param_groups[0]["lr"] == pytest.approx(0.0, abs=1e-12)
 
 
 def test_fit_returns_history_selects_best_and_saves_outputs(tmp_path):

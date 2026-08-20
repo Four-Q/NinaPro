@@ -1,5 +1,6 @@
 """模型训练、逐轮测试和单批次诊断。"""
 
+import math
 import time
 from contextlib import nullcontext
 from pathlib import Path
@@ -124,6 +125,8 @@ def fit(
     resume_from=None,
     class_names=None,
     verbose=True,
+    warmup_epochs=5,
+    warmup_start_factor=0.2,
 ):
     """训练模型，每个 epoch 测试并按测试准确率保存最佳检查点。
 
@@ -131,7 +134,14 @@ def fit(
     其测试指标不能解释为完全无偏的最终泛化估计。
     """
 
-    _validate_fit_options(epochs, learning_rate, weight_decay, gradient_clip)
+    _validate_fit_options(
+        epochs,
+        learning_rate,
+        weight_decay,
+        gradient_clip,
+        warmup_epochs,
+        warmup_start_factor,
+    )
     device = resolve_device(device)
     output_dir = Path(output_dir).expanduser().resolve()
     checkpoint_dir = output_dir / "checkpoints"
@@ -146,9 +156,11 @@ def fit(
         lr=learning_rate,
         weight_decay=weight_decay,
     )
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+    scheduler, effective_warmup_epochs = _create_learning_rate_scheduler(
         optimizer,
-        T_max=epochs,
+        epochs=epochs,
+        warmup_epochs=warmup_epochs,
+        warmup_start_factor=warmup_start_factor,
     )
     amp_enabled = bool(mixed_precision and device.type == "cuda")
     scaler = _create_grad_scaler(amp_enabled)
@@ -160,7 +172,10 @@ def fit(
         "optimizer": "AdamW",
         "learning_rate": learning_rate,
         "weight_decay": weight_decay,
-        "scheduler": "CosineAnnealingLR",
+        "scheduler": "LinearWarmupCosineAnnealingLR",
+        "warmup_epochs": effective_warmup_epochs,
+        "warmup_start_factor": float(warmup_start_factor),
+        "cosine_epochs": epochs - effective_warmup_epochs,
         "gradient_clip": gradient_clip,
         "mixed_precision": bool(mixed_precision),
         "device": str(device),
@@ -381,7 +396,14 @@ def overfit_one_batch(
     return history
 
 
-def _validate_fit_options(epochs, learning_rate, weight_decay, gradient_clip):
+def _validate_fit_options(
+    epochs,
+    learning_rate,
+    weight_decay,
+    gradient_clip,
+    warmup_epochs,
+    warmup_start_factor,
+):
     if not isinstance(epochs, int) or isinstance(epochs, bool) or epochs <= 0:
         raise ValueError("epochs 必须是正整数")
     if learning_rate <= 0:
@@ -390,6 +412,46 @@ def _validate_fit_options(epochs, learning_rate, weight_decay, gradient_clip):
         raise ValueError("weight_decay 不能小于 0")
     if gradient_clip is not None and gradient_clip <= 0:
         raise ValueError("gradient_clip 必须大于 0 或为 None")
+    if (
+        not isinstance(warmup_epochs, int)
+        or isinstance(warmup_epochs, bool)
+        or warmup_epochs < 0
+    ):
+        raise ValueError("warmup_epochs 必须是非负整数")
+    if (
+        not isinstance(warmup_start_factor, (int, float))
+        or isinstance(warmup_start_factor, bool)
+        or not 0.0 < warmup_start_factor <= 1.0
+    ):
+        raise ValueError("warmup_start_factor 必须在 (0, 1] 范围内")
+
+
+def _create_learning_rate_scheduler(
+    optimizer,
+    epochs,
+    warmup_epochs=5,
+    warmup_start_factor=0.2,
+):
+    """创建线性 warmup 后接余弦退火的统一学习率调度器。"""
+
+    # 短跑训练至少保留一个余弦阶段 epoch，正式 100 epoch 配置保持 5+95。
+    effective_warmup_epochs = min(warmup_epochs, max(epochs - 1, 0))
+    cosine_epochs = max(epochs - effective_warmup_epochs, 1)
+
+    def learning_rate_multiplier(step):
+        if effective_warmup_epochs > 0 and step < effective_warmup_epochs:
+            progress = step / effective_warmup_epochs
+            return warmup_start_factor + (1.0 - warmup_start_factor) * progress
+
+        cosine_step = step - effective_warmup_epochs
+        cosine_progress = min(max(cosine_step / cosine_epochs, 0.0), 1.0)
+        return 0.5 * (1.0 + math.cos(math.pi * cosine_progress))
+
+    scheduler = torch.optim.lr_scheduler.LambdaLR(
+        optimizer,
+        lr_lambda=learning_rate_multiplier,
+    )
+    return scheduler, effective_warmup_epochs
 
 
 def _infer_num_classes(model):
