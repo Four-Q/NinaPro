@@ -1,0 +1,32 @@
+{
+  "dataset": "NinaPro DB5",
+  "exercise": "A / E1",
+  "normalized": false,
+  "channels": 16,
+  "total_time_points": 553634,
+  "all_values_finite": true,
+  "violin_density_sample_count_per_channel": 60000,
+  "largest_range": 255.0,
+  "channels_with_largest_range": [
+    "CH01",
+    "CH02",
+    "CH04",
+    "CH06",
+    "CH07",
+    "CH08",
+    "CH09",
+    "CH10",
+    "CH13",
+    "CH14",
+    "CH15",
+    "CH16"
+  ],
+  "narrowest_range_channel": "CH12",
+  "narrowest_range": 204.0,
+  "files": {
+    "overall_statistics": "channel_statistics_overall.csv",
+    "split_statistics": "channel_statistics_by_split.csv",
+    "figure_png": "channel_ranges_violin.png",
+    "figure_svg": "channel_ranges_violin.svg"
+  }
+}

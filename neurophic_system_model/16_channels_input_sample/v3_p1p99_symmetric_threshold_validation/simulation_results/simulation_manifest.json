@@ -1,0 +1,2768 @@
+{
+  "version": "v3_p1p99_symmetric_threshold_validation",
+  "source_circuit": "neurophic_system_model/System_with_TIA.asc",
+  "ltspice_executable": "D:\\Software\\LTspice\\LTspice.exe",
+  "ltspice_model": "System_with_TIA.asc 对应批处理网表；器件参数和节点连接保持一致",
+  "signals": [
+    "V(N001) as Vin",
+    "V(Vout)",
+    "V(final_out)"
+  ],
+  "oscillation_count_rule": "1.60 V rising crossings",
+  "input_manifest": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/manifest.json",
+  "task_count": 96,
+  "results": [
+    {
+      "index": 1,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 312535,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.9333508014678955
+      ],
+      "vout_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759982109069824
+      ],
+      "vout_rising_crossings_1p60": 185,
+      "final_out_rising_crossings_1p60": 1108,
+      "vout_crossing_rate_hz": 47.01397712833545,
+      "final_out_crossing_rate_hz": 281.5756035578145
+    },
+    {
+      "index": 2,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 302228,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759980916976929
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759980916976929
+      ],
+      "vout_rising_crossings_1p60": 206,
+      "final_out_rising_crossings_1p60": 927,
+      "vout_crossing_rate_hz": 52.35069885641677,
+      "final_out_crossing_rate_hz": 235.57814485387547
+    },
+    {
+      "index": 3,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 296259,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759982109069824
+      ],
+      "vout_rising_crossings_1p60": 180,
+      "final_out_rising_crossings_1p60": 865,
+      "vout_crossing_rate_hz": 45.7433290978399,
+      "final_out_crossing_rate_hz": 219.8221092757306
+    },
+    {
+      "index": 4,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 304034,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759977340698242
+      ],
+      "final_out_range": [
+        0.0,
+        1.675998330116272
+      ],
+      "vout_rising_crossings_1p60": 154,
+      "final_out_rising_crossings_1p60": 1034,
+      "vout_crossing_rate_hz": 39.135959339263025,
+      "final_out_crossing_rate_hz": 262.7700127064803
+    },
+    {
+      "index": 5,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 322230,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.3112359046936035
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759990453720093
+      ],
+      "vout_rising_crossings_1p60": 137,
+      "final_out_rising_crossings_1p60": 1287,
+      "vout_crossing_rate_hz": 34.81575603557815,
+      "final_out_crossing_rate_hz": 327.0648030495553
+    },
+    {
+      "index": 6,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 327403,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.402359962463379
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759990453720093
+      ],
+      "vout_rising_crossings_1p60": 108,
+      "final_out_rising_crossings_1p60": 1347,
+      "vout_crossing_rate_hz": 27.44599745870394,
+      "final_out_crossing_rate_hz": 342.3125794155019
+    },
+    {
+      "index": 7,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 319134,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.7492525577545166
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759986877441406
+      ],
+      "vout_rising_crossings_1p60": 157,
+      "final_out_rising_crossings_1p60": 1206,
+      "vout_crossing_rate_hz": 39.898348157560356,
+      "final_out_crossing_rate_hz": 306.4803049555273
+    },
+    {
+      "index": 8,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 310856,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.621291399002075
+      ],
+      "vout_range": [
+        0.0,
+        1.6759974956512451
+      ],
+      "final_out_range": [
+        0.0,
+        1.675998568534851
+      ],
+      "vout_rising_crossings_1p60": 186,
+      "final_out_rising_crossings_1p60": 1088,
+      "vout_crossing_rate_hz": 47.26810673443456,
+      "final_out_crossing_rate_hz": 276.4930114358323
+    },
+    {
+      "index": 9,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 319612,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.081648111343384
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.675998568534851
+      ],
+      "vout_rising_crossings_1p60": 172,
+      "final_out_rising_crossings_1p60": 1200,
+      "vout_crossing_rate_hz": 43.710292249047015,
+      "final_out_crossing_rate_hz": 304.95552731893264
+    },
+    {
+      "index": 10,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 303744,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759974956512451
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759980916976929
+      ],
+      "vout_rising_crossings_1p60": 220,
+      "final_out_rising_crossings_1p60": 947,
+      "vout_crossing_rate_hz": 55.90851334180432,
+      "final_out_crossing_rate_hz": 240.66073697585767
+    },
+    {
+      "index": 11,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 308611,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759984493255615
+      ],
+      "vout_rising_crossings_1p60": 154,
+      "final_out_rising_crossings_1p60": 1098,
+      "vout_crossing_rate_hz": 39.135959339263025,
+      "final_out_crossing_rate_hz": 279.0343074968234
+    },
+    {
+      "index": 12,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 314886,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        3.2618250846862793
+      ],
+      "vout_range": [
+        0.0,
+        1.6759974956512451
+      ],
+      "final_out_range": [
+        0.0,
+        1.675998568534851
+      ],
+      "vout_rising_crossings_1p60": 152,
+      "final_out_rising_crossings_1p60": 1204,
+      "vout_crossing_rate_hz": 38.627700127064806,
+      "final_out_crossing_rate_hz": 305.9720457433291
+    },
+    {
+      "index": 13,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 326006,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.5574440956115723
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675998330116272
+      ],
+      "vout_rising_crossings_1p60": 104,
+      "final_out_rising_crossings_1p60": 1329,
+      "vout_crossing_rate_hz": 26.429479034307498,
+      "final_out_crossing_rate_hz": 337.73824650571794
+    },
+    {
+      "index": 14,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 316462,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.6923000812530518
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759984493255615
+      ],
+      "vout_rising_crossings_1p60": 160,
+      "final_out_rising_crossings_1p60": 1178,
+      "vout_crossing_rate_hz": 40.66073697585769,
+      "final_out_crossing_rate_hz": 299.36467598475224
+    },
+    {
+      "index": 15,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 315204,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.995553493499756
+      ],
+      "vout_range": [
+        0.0,
+        1.6759974956512451
+      ],
+      "final_out_range": [
+        0.0,
+        1.675998568534851
+      ],
+      "vout_rising_crossings_1p60": 164,
+      "final_out_rising_crossings_1p60": 1174,
+      "vout_crossing_rate_hz": 41.677255400254126,
+      "final_out_crossing_rate_hz": 298.3481575603558
+    },
+    {
+      "index": 16,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/full_sequence_pwl/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/full_sequence_pwl/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 320082,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.6627142429351807
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759986877441406
+      ],
+      "vout_rising_crossings_1p60": 155,
+      "final_out_rising_crossings_1p60": 1229,
+      "vout_crossing_rate_hz": 39.39008894536214,
+      "final_out_crossing_rate_hz": 312.32528589580687
+    },
+    {
+      "index": 17,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13123,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3222360610961914
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 18,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13189,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.3503012657165527
+      ],
+      "vout_range": [
+        0.0,
+        1.6759978532791138
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 13,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 65.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 19,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12916,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.131351947784424
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 20,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12616,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3298749923706055
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 13,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 65.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 21,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13145,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.013011932373047
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 22,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13025,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.9881600141525269
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 3,
+      "final_out_rising_crossings_1p60": 20,
+      "vout_crossing_rate_hz": 15.0,
+      "final_out_crossing_rate_hz": 100.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 23,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13100,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.236680030822754
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 24,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13005,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.6094601154327393
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 25,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13134,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.062716007232666
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 26,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13021,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 12,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 60.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 27,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13062,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.0029499530792236
+      ],
+      "vout_range": [
+        0.0,
+        1.6759939193725586
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 18,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 90.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 28,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13162,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.213381290435791
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 29,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13046,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.9505929946899414
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 19,
+      "vout_crossing_rate_hz": 20.0,
+      "final_out_crossing_rate_hz": 95.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 30,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13090,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.443779945373535
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 31,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13018,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.6627142429351807
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 32,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13197,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.016055107116699
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 33,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13083,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.627793550491333
+      ],
+      "vout_range": [
+        0.0,
+        1.6759953498840332
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 34,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12767,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759977340698242
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 6,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 30.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 35,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12468,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759871244430542
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "vout_rising_crossings_1p60": 11,
+      "final_out_rising_crossings_1p60": 6,
+      "vout_crossing_rate_hz": 55.0,
+      "final_out_crossing_rate_hz": 30.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 36,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12739,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.4171500205993652
+      ],
+      "vout_range": [
+        0.0,
+        1.6759979724884033
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 11,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 55.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 37,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13039,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.236680030822754
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 38,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13134,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.112420082092285
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 18,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 90.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 39,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13053,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.7492525577545166
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 40,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12925,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.6627142429351807
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 41,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13117,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.410644054412842
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 42,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12885,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 12,
+      "final_out_rising_crossings_1p60": 8,
+      "vout_crossing_rate_hz": 60.0,
+      "final_out_crossing_rate_hz": 40.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 43,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12839,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.4851999282836914
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 13,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 65.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 44,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12774,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.7958500385284424
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 45,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13281,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.5574440956115723
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 46,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13213,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.27810001373291
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 13,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 65.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 47,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13144,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.995553493499756
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 11,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 55.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 48,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13064,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.434481620788574
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 49,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12978,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.6583492755889893
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 11,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 55.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 50,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12673,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.491863250732422
+      ],
+      "vout_range": [
+        0.0,
+        1.6759952306747437
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 8,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 40.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 51,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12491,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 4,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 20.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 52,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12549,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.4171500205993652
+      ],
+      "vout_range": [
+        0.0,
+        1.6759953498840332
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 8,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 40.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 53,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12979,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.162123918533325
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 54,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13021,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.236680030822754
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 55,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13165,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.702655076980591
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 56,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12872,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.8757314682006836
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 12,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 60.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 57,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13151,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2615320682525635
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 58,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 10,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 50.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 59,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13021,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.381649971008301
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 10,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 50.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 60,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12985,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.213381290435791
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 61,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13185,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0372860431671143
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 20,
+      "vout_crossing_rate_hz": 25.0,
+      "final_out_crossing_rate_hz": 100.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 62,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12999,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3609399795532227
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 63,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13272,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3298749923706055
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 64,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13358,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.472520351409912
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 65,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12983,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.5972375869750977
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 25.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 66,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13074,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.2087392807006836
+      ],
+      "vout_range": [
+        0.0,
+        1.6759947538375854
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 13,
+      "final_out_rising_crossings_1p60": 12,
+      "vout_crossing_rate_hz": 65.0,
+      "final_out_crossing_rate_hz": 60.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 67,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12954,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.907684087753296
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 10,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 50.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 68,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12899,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.7958500385284424
+      ],
+      "vout_range": [
+        0.0,
+        1.6759828329086304
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 69,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13081,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.162123918533325
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 19,
+      "vout_crossing_rate_hz": 25.0,
+      "final_out_crossing_rate_hz": 95.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 70,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13199,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0295801162719727
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 19,
+      "vout_crossing_rate_hz": 20.0,
+      "final_out_crossing_rate_hz": 95.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 71,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13070,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2832775115966797
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 18,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 90.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 72,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12940,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.715968608856201
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 73,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13215,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.286384105682373
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 74,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13088,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.199695110321045
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 14,
+      "final_out_rising_crossings_1p60": 11,
+      "vout_crossing_rate_hz": 70.0,
+      "final_out_crossing_rate_hz": 55.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 75,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12801,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.27810001373291
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 76,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12859,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0968875885009766
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 20.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 77,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13069,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.21067214012146
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 20,
+      "vout_crossing_rate_hz": 25.0,
+      "final_out_crossing_rate_hz": 100.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 78,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13219,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.5266199111938477
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 79,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12864,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.8624179363250732
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 13,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 65.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 80,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13055,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2823264598846436
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 81,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13162,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.8111279010772705
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 40.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 82,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13086,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.4773354530334473
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 18,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 90.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 83,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12898,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.5349040031433105
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 20.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 84,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12772,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.6405251026153564
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 14,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 70.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 85,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13023,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3112359046936035
+      ],
+      "vout_range": [
+        0.0,
+        1.6759880781173706
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 19,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 95.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 86,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13082,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.236680030822754
+      ],
+      "vout_range": [
+        0.0,
+        1.6759934425354004
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 21,
+      "vout_crossing_rate_hz": 25.0,
+      "final_out_crossing_rate_hz": 105.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 87,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12814,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.050290107727051
+      ],
+      "vout_range": [
+        0.0,
+        1.6759941577911377
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 19,
+      "vout_crossing_rate_hz": 20.0,
+      "final_out_crossing_rate_hz": 95.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 88,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13092,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.715968608856201
+      ],
+      "vout_range": [
+        0.0,
+        1.675994634628296
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 89,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13006,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.112420082092285
+      ],
+      "vout_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 16,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 80.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 90,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12688,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759942770004272
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 13,
+      "final_out_rising_crossings_1p60": 7,
+      "vout_crossing_rate_hz": 65.0,
+      "final_out_crossing_rate_hz": 35.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 91,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12879,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.727799892425537
+      ],
+      "vout_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 8,
+      "vout_crossing_rate_hz": 50.0,
+      "final_out_crossing_rate_hz": 40.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 92,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12965,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        3.2618250846862793
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 15,
+      "vout_crossing_rate_hz": 45.0,
+      "final_out_crossing_rate_hz": 75.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 93,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13232,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.9939395189285278
+      ],
+      "vout_range": [
+        0.0,
+        1.6759965419769287
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "vout_rising_crossings_1p60": 3,
+      "final_out_rising_crossings_1p60": 20,
+      "vout_crossing_rate_hz": 15.0,
+      "final_out_crossing_rate_hz": 100.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 94,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13229,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.071000099182129
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 17,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 85.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 95,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13228,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2633070945739746
+      ],
+      "vout_range": [
+        0.0,
+        1.6759895086288452
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 20,
+      "vout_crossing_rate_hz": 35.0,
+      "final_out_crossing_rate_hz": 100.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 96,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/16_channels_input_sample/v3_p1p99_symmetric_threshold_validation/simulation_results/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13158,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.092132568359375
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 18,
+      "vout_crossing_rate_hz": 30.0,
+      "final_out_crossing_rate_hz": 90.0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    }
+  ]
+}

@@ -1,0 +1,2576 @@
+{
+  "version": "rms_active_band_v2",
+  "source_circuit": "neurophic_system_model/System_with_TIA.asc",
+  "ltspice_executable": "D:\\Software\\LTspice\\LTspice.exe",
+  "ltspice_model": "System_with_TIA.asc 对应批处理网表；器件参数和节点连接保持一致",
+  "signals": [
+    "V(N001) as Vin",
+    "V(Vout)",
+    "V(final_out)"
+  ],
+  "oscillation_count_rule": "1.60 V rising crossings",
+  "input_manifest": "neurophic_system_model/16_channels_input_sample/rms_active_band/manifest.json",
+  "task_count": 96,
+  "results": [
+    {
+      "index": 1,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 240097,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.1757004261016846
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 134,
+      "final_out_rising_crossings_1p60": 112
+    },
+    {
+      "index": 2,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 284185,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759978532791138
+      ],
+      "vout_rising_crossings_1p60": 279,
+      "final_out_rising_crossings_1p60": 559
+    },
+    {
+      "index": 3,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 275057,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759978532791138
+      ],
+      "vout_rising_crossings_1p60": 259,
+      "final_out_rising_crossings_1p60": 455
+    },
+    {
+      "index": 4,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 256018,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759976148605347
+      ],
+      "vout_rising_crossings_1p60": 182,
+      "final_out_rising_crossings_1p60": 263
+    },
+    {
+      "index": 5,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 207463,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.0825212001800537
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.490606427192688
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0
+    },
+    {
+      "index": 6,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 206002,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.0636563301086426
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.4437718391418457
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0
+    },
+    {
+      "index": 7,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 214508,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.133568048477173
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759965419769287
+      ],
+      "vout_rising_crossings_1p60": 28,
+      "final_out_rising_crossings_1p60": 7
+    },
+    {
+      "index": 8,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 250733,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.2477381229400635
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997257232666
+      ],
+      "vout_rising_crossings_1p60": 171,
+      "final_out_rising_crossings_1p60": 180
+    },
+    {
+      "index": 9,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 219105,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.1714837551116943
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 49,
+      "final_out_rising_crossings_1p60": 19
+    },
+    {
+      "index": 10,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 278817,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759976148605347
+      ],
+      "vout_rising_crossings_1p60": 282,
+      "final_out_rising_crossings_1p60": 467
+    },
+    {
+      "index": 11,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 237445,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759973764419556
+      ],
+      "vout_rising_crossings_1p60": 132,
+      "final_out_rising_crossings_1p60": 100
+    },
+    {
+      "index": 12,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 219130,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.2093584537506104
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 48,
+      "final_out_rising_crossings_1p60": 20
+    },
+    {
+      "index": 13,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 209041,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.104769706726074
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.5899631977081299
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 0
+    },
+    {
+      "index": 14,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 220217,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.214801788330078
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 59,
+      "final_out_rising_crossings_1p60": 15
+    },
+    {
+      "index": 15,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 220778,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.215376615524292
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 61,
+      "final_out_rising_crossings_1p60": 18
+    },
+    {
+      "index": 16,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/full_sequence_pwl/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 214860,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.1125640869140625
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759965419769287
+      ],
+      "vout_rising_crossings_1p60": 36,
+      "final_out_rising_crossings_1p60": 5
+    },
+    {
+      "index": 17,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11156,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0995256900787354
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.505946397781372
+      ],
+      "vout_rising_crossings_1p60": 3,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 18,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13162,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.21051025390625
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 13,
+      "final_out_rising_crossings_1p60": 7,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 19,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12633,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.186458110809326
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 4,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 20,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11641,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.07468581199646
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.5112463235855103
+      ],
+      "vout_rising_crossings_1p60": 3,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 21,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 22,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 23,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10907,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.058319568634033
+      ],
+      "vout_range": [
+        0.0,
+        1.5004980564117432
+      ],
+      "final_out_range": [
+        0.0,
+        1.3808691501617432
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 24,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12252,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1280100345611572
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759965419769287
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 25,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 26,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12378,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3082778453826904
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 27,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11035,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1551222801208496
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.4810024499893188
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 28,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10919,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.062601089477539
+      ],
+      "vout_range": [
+        0.0,
+        1.3924505710601807
+      ],
+      "final_out_range": [
+        0.0,
+        1.3655674457550049
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 29,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 30,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11858,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2010581493377686
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6302403211593628
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 1,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 31,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11497,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1275336742401123
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.5948905944824219
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 32,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 33,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12602,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.15800142288208
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "vout_rising_crossings_1p60": 10,
+      "final_out_rising_crossings_1p60": 5,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 34,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14072,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 22,
+      "final_out_rising_crossings_1p60": 13,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 35,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14141,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 23,
+      "final_out_rising_crossings_1p60": 12,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 36,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14115,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 19,
+      "final_out_rising_crossings_1p60": 13,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 37,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10867,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0571072101593018
+      ],
+      "vout_range": [
+        0.0,
+        1.2414087057113647
+      ],
+      "final_out_range": [
+        0.0,
+        1.3551058769226074
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 38,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 39,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11902,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.115504264831543
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.640539288520813
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 1,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 40,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14006,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.152169704437256
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 14,
+      "final_out_rising_crossings_1p60": 12,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 41,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11936,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1029469966888428
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6396405696868896
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 42,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14156,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "vout_rising_crossings_1p60": 20,
+      "final_out_rising_crossings_1p60": 13,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 43,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11967,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1233718395233154
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 44,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11975,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1309449672698975
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6665351390838623
+      ],
+      "vout_rising_crossings_1p60": 6,
+      "final_out_rising_crossings_1p60": 1,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 45,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11627,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.104769706726074
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.5898752212524414
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 46,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12114,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.178171157836914
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 47,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12203,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.215376615524292
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 48,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10997,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0877108573913574
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.493499994277954
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 49,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13077,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1390511989593506
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 13,
+      "final_out_rising_crossings_1p60": 10,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 50,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14111,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.32735538482666
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 20,
+      "final_out_rising_crossings_1p60": 13,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 51,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14106,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 22,
+      "final_out_rising_crossings_1p60": 12,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 52,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13941,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.264979124069214
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 18,
+      "final_out_rising_crossings_1p60": 13,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 53,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 54,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 55,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11029,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.114611864089966
+      ],
+      "vout_range": [
+        0.0,
+        1.675987720489502
+      ],
+      "final_out_range": [
+        0.0,
+        1.4334213733673096
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 56,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12288,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.132843017578125
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 9,
+      "final_out_rising_crossings_1p60": 4,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 57,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10716,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0896849632263184
+      ],
+      "vout_range": [
+        0.0,
+        1.5205179452896118
+      ],
+      "final_out_range": [
+        0.0,
+        1.34885835647583
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 58,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13641,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 17,
+      "final_out_rising_crossings_1p60": 7,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 59,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12297,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.126835584640503
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 3,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 60,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11042,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0509936809539795
+      ],
+      "vout_range": [
+        0.0,
+        1.2372900247573853
+      ],
+      "final_out_range": [
+        0.0,
+        1.355021595954895
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 61,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 62,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11156,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.12084698677063
+      ],
+      "vout_range": [
+        0.0,
+        1.675995111465454
+      ],
+      "final_out_range": [
+        0.0,
+        1.5806682109832764
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 63,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11709,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0845401287078857
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.564086675643921
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 64,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11386,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1003992557525635
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.5301092863082886
+      ],
+      "vout_rising_crossings_1p60": 3,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 65,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12029,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1377432346343994
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 66,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13750,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2366178035736084
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 16,
+      "final_out_rising_crossings_1p60": 11,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 67,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13374,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2748382091522217
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "vout_rising_crossings_1p60": 14,
+      "final_out_rising_crossings_1p60": 10,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 68,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12215,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1749637126922607
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "vout_rising_crossings_1p60": 8,
+      "final_out_rising_crossings_1p60": 4,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 69,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 70,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 71,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10833,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.060190200805664
+      ],
+      "vout_range": [
+        0.0,
+        1.6759966611862183
+      ],
+      "final_out_range": [
+        0.0,
+        1.4189956188201904
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 72,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11721,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1265268325805664
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6183900833129883
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 73,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10901,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0698537826538086
+      ],
+      "vout_range": [
+        0.0,
+        1.6597816944122314
+      ],
+      "final_out_range": [
+        0.0,
+        1.4312331676483154
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 74,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 13699,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3199589252471924
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 18,
+      "final_out_rising_crossings_1p60": 12,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 75,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11984,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.13645076751709
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.663947582244873
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 76,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10826,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.056601047515869
+      ],
+      "vout_range": [
+        0.0,
+        1.6471939086914062
+      ],
+      "final_out_range": [
+        0.0,
+        1.4217909574508667
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 77,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10822,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.052638530731201
+      ],
+      "vout_range": [
+        0.0,
+        0.787234902381897
+      ],
+      "final_out_range": [
+        0.0,
+        1.3489067554473877
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 78,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11326,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.087968349456787
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.5032095909118652
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 79,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11384,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1769392490386963
+      ],
+      "vout_range": [
+        0.0,
+        1.6759949922561646
+      ],
+      "final_out_range": [
+        0.0,
+        1.4946210384368896
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 80,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11166,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0647106170654297
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.4459878206253052
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 81,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11161,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.134087324142456
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.506860375404358
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 82,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11230,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0639877319335938
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.448009729385376
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 83,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11792,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.118725538253784
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759965419769287
+      ],
+      "vout_rising_crossings_1p60": 5,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 84,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11602,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1534676551818848
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.6119354963302612
+      ],
+      "vout_rising_crossings_1p60": 4,
+      "final_out_rising_crossings_1p60": 1,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 85,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11037,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.0522475242614746
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.443950891494751
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 86,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 87,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 88,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11341,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1187448501586914
+      ],
+      "vout_range": [
+        0.0,
+        1.6759968996047974
+      ],
+      "final_out_range": [
+        0.0,
+        1.4882559776306152
+      ],
+      "vout_rising_crossings_1p60": 2,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 89,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 90,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14212,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 22,
+      "final_out_rising_crossings_1p60": 12,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 91,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 14089,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.3499999046325684
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "vout_rising_crossings_1p60": 21,
+      "final_out_rising_crossings_1p60": 13,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 92,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 12278,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.2093584537506104
+      ],
+      "vout_range": [
+        0.0,
+        1.675997018814087
+      ],
+      "final_out_range": [
+        0.0,
+        1.6759967803955078
+      ],
+      "vout_rising_crossings_1p60": 7,
+      "final_out_rising_crossings_1p60": 2,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 93,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 94,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10975,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.1164467334747314
+      ],
+      "vout_range": [
+        0.0,
+        1.6759953498840332
+      ],
+      "final_out_range": [
+        0.0,
+        1.4467984437942505
+      ],
+      "vout_rising_crossings_1p60": 1,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 95,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 96,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/rms_active_band/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10696,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.0
+      ],
+      "vout_range": [
+        0.0,
+        0.0
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "vout_rising_crossings_1p60": 0,
+      "final_out_rising_crossings_1p60": 0,
+      "window_order": 5,
+      "window_start_sample": 1743
+    }
+  ]
+}

@@ -1,0 +1,2383 @@
+{
+  "version": "q99_linear_v1",
+  "source_circuit": "neurophic_system_model/System_with_TIA.asc",
+  "ltspice_executable": "D:\\Software\\LTspice\\LTspice.exe",
+  "ltspice_model": "System_with_TIA.asc 对应批处理网表；器件参数和节点连接保持一致",
+  "signals": [
+    "V(N001) as Vin",
+    "V(Vout)",
+    "V(final_out)"
+  ],
+  "task_count": 96,
+  "results": [
+    {
+      "index": 1,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 220111,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        1.1342413425445557
+      ],
+      "vout_range": [
+        0.0,
+        0.6008895039558411
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 2,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 218930,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.4590591192245483
+      ],
+      "final_out_range": [
+        0.0,
+        1.4232724905014038
+      ]
+    },
+    {
+      "index": 3,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 219578,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.675987720489502
+      ],
+      "final_out_range": [
+        0.0,
+        1.4669476747512817
+      ]
+    },
+    {
+      "index": 4,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 219454,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.1636788845062256
+      ],
+      "vout_range": [
+        0.0,
+        1.0726326704025269
+      ],
+      "final_out_range": [
+        0.0,
+        1.3535860776901245
+      ]
+    },
+    {
+      "index": 5,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 212356,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        0.4748688340187073
+      ],
+      "vout_range": [
+        0.0,
+        0.28974664211273193
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 6,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 208938,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        0.5416259765625
+      ],
+      "vout_range": [
+        0.0,
+        0.2621404230594635
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 7,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 215164,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        0.9292083382606506
+      ],
+      "vout_range": [
+        0.0,
+        0.4817286431789398
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 8,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 220251,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        1.8170201778411865
+      ],
+      "vout_range": [
+        0.0,
+        0.7722808122634888
+      ],
+      "final_out_range": [
+        0.0,
+        1.3489131927490234
+      ]
+    },
+    {
+      "index": 9,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 216217,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        1.2892799377441406
+      ],
+      "vout_range": [
+        0.0,
+        0.6888319849967957
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488223552703857
+      ]
+    },
+    {
+      "index": 10,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 217943,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.5032575130462646
+      ],
+      "final_out_range": [
+        0.0,
+        1.394348382949829
+      ]
+    },
+    {
+      "index": 11,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 219500,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.5013394355773926
+      ],
+      "final_out_range": [
+        0.0,
+        1.375880241394043
+      ]
+    },
+    {
+      "index": 12,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 217133,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        1.3544566631317139
+      ],
+      "vout_range": [
+        0.0,
+        0.7776490449905396
+      ],
+      "final_out_range": [
+        0.0,
+        1.3489885330200195
+      ]
+    },
+    {
+      "index": 13,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 210194,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        0.6399884223937988
+      ],
+      "vout_range": [
+        0.0,
+        0.39207977056503296
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 14,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 215679,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        1.3794317245483398
+      ],
+      "vout_range": [
+        0.0,
+        0.6685606241226196
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 15,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 216521,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        1.2103796005249023
+      ],
+      "vout_range": [
+        0.0,
+        0.7338006496429443
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488777875900269
+      ]
+    },
+    {
+      "index": 16,
+      "group": "full_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/full_sequence_pwl/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/full_sequence_pwl/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 3.935,
+      "ltspice_completed": true,
+      "raw_point_count": 214752,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 3.935,
+      "vin_range": [
+        0.0,
+        0.8176764249801636
+      ],
+      "vout_range": [
+        0.0,
+        0.4704340994358063
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ]
+    },
+    {
+      "index": 17,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11124,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.6301500797271729
+      ],
+      "vout_range": [
+        0.0,
+        0.36959409713745117
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 18,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11361,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.5630310773849487
+      ],
+      "vout_range": [
+        0.0,
+        0.764713704586029
+      ],
+      "final_out_range": [
+        0.0,
+        1.3489089012145996
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 19,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11284,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.3238129615783691
+      ],
+      "vout_range": [
+        0.0,
+        0.6577914357185364
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 20,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11154,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.5278244018554688
+      ],
+      "vout_range": [
+        0.0,
+        0.3178679049015045
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 21,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10799,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.19738195836544037
+      ],
+      "vout_range": [
+        0.0,
+        0.1371760368347168
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 22,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10699,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.16172364354133606
+      ],
+      "vout_range": [
+        0.0,
+        0.09830676019191742
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 23,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11054,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.47479531168937683
+      ],
+      "vout_range": [
+        0.0,
+        0.22385720908641815
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 24,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11295,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.8125366568565369
+      ],
+      "vout_range": [
+        0.0,
+        0.4607982635498047
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 25,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10967,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.24898290634155273
+      ],
+      "vout_range": [
+        0.0,
+        0.13614881038665771
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 26,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11097,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.9448832273483276
+      ],
+      "vout_range": [
+        0.0,
+        1.1181272268295288
+      ],
+      "final_out_range": [
+        0.0,
+        1.3517776727676392
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 27,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11147,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.201898455619812
+      ],
+      "vout_range": [
+        0.0,
+        0.5947584509849548
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 28,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11074,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4205651581287384
+      ],
+      "vout_range": [
+        0.0,
+        0.2522793412208557
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 29,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10623,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.11180290579795837
+      ],
+      "vout_range": [
+        0.0,
+        0.054941415786743164
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 30,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11243,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.3794317245483398
+      ],
+      "vout_range": [
+        0.0,
+        0.664760947227478
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 31,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11186,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.787257730960846
+      ],
+      "vout_range": [
+        0.0,
+        0.4152553677558899
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 32,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_01_start_001063/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10890,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.25866425037384033
+      ],
+      "vout_range": [
+        0.0,
+        0.1401410698890686
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 1,
+      "window_start_sample": 1063
+    },
+    {
+      "index": 33,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11317,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9452199935913086
+      ],
+      "vout_range": [
+        0.0,
+        0.5775437951087952
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 34,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11230,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.301250696182251
+      ],
+      "final_out_range": [
+        0.0,
+        1.3628867864608765
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 35,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11464,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.6759971380233765
+      ],
+      "final_out_range": [
+        0.0,
+        1.4616284370422363
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 36,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11328,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.7896360158920288
+      ],
+      "vout_range": [
+        0.0,
+        1.072632074356079
+      ],
+      "final_out_range": [
+        0.0,
+        1.3535842895507812
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 37,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11110,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.40549713373184204
+      ],
+      "vout_range": [
+        0.0,
+        0.21527396142482758
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 38,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10841,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.278948575258255
+      ],
+      "vout_range": [
+        0.0,
+        0.15372978150844574
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 39,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11202,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9292083382606506
+      ],
+      "vout_range": [
+        0.0,
+        0.457273006439209
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 40,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11341,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9735299348831177
+      ],
+      "vout_range": [
+        0.0,
+        0.5409051775932312
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 41,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11164,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.7617371678352356
+      ],
+      "vout_range": [
+        0.0,
+        0.4498049020767212
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 42,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11340,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.3922141790390015
+      ],
+      "final_out_range": [
+        0.0,
+        1.3940507173538208
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 43,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11348,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.7027614116668701
+      ],
+      "vout_range": [
+        0.0,
+        0.42668595910072327
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 44,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11336,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9368044137954712
+      ],
+      "vout_range": [
+        0.0,
+        0.5278567671775818
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 45,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11202,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.6399884223937988
+      ],
+      "vout_range": [
+        0.0,
+        0.3920240104198456
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 46,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11264,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.2261220216751099
+      ],
+      "vout_range": [
+        0.0,
+        0.5577069520950317
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 47,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11241,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.0899300575256348
+      ],
+      "vout_range": [
+        0.0,
+        0.7336711287498474
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 48,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_02_start_001323/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11077,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.5949852466583252
+      ],
+      "vout_range": [
+        0.0,
+        0.3664415776729584
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 2,
+      "window_start_sample": 1323
+    },
+    {
+      "index": 49,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11413,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.8506784439086914
+      ],
+      "vout_range": [
+        0.0,
+        0.5254290699958801
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 50,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11316,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.057042121887207
+      ],
+      "vout_range": [
+        0.0,
+        1.0857423543930054
+      ],
+      "final_out_range": [
+        0.0,
+        1.3615566492080688
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 51,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11350,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.2388173341751099
+      ],
+      "final_out_range": [
+        0.0,
+        1.377153992652893
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 52,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11240,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.4820728302001953
+      ],
+      "vout_range": [
+        0.0,
+        0.8858312368392944
+      ],
+      "final_out_range": [
+        0.0,
+        1.3489373922348022
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 53,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11211,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.35759180784225464
+      ],
+      "vout_range": [
+        0.0,
+        0.2121567577123642
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 54,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10885,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.3853260576725006
+      ],
+      "vout_range": [
+        0.0,
+        0.18842713534832
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 55,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11138,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.8824082016944885
+      ],
+      "vout_range": [
+        0.0,
+        0.37896624207496643
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 56,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11281,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.065718173980713
+      ],
+      "vout_range": [
+        0.0,
+        0.5312364101409912
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 57,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11136,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4797223210334778
+      ],
+      "vout_range": [
+        0.0,
+        0.2539516091346741
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 58,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11225,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.187448024749756
+      ],
+      "vout_range": [
+        0.0,
+        1.3757144212722778
+      ],
+      "final_out_range": [
+        0.0,
+        1.3676029443740845
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 59,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11337,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.894477128982544
+      ],
+      "vout_range": [
+        0.0,
+        0.41601085662841797
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 60,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11238,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4205651581287384
+      ],
+      "vout_range": [
+        0.0,
+        0.2528911828994751
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 61,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10796,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.30319997668266296
+      ],
+      "vout_range": [
+        0.0,
+        0.1550184041261673
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 62,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11036,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.7278656959533691
+      ],
+      "vout_range": [
+        0.0,
+        0.43661701679229736
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 63,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11267,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4845854341983795
+      ],
+      "vout_range": [
+        0.0,
+        0.349753737449646
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 64,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_03_start_001463/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11184,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.6321004033088684
+      ],
+      "vout_range": [
+        0.0,
+        0.40025797486305237
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 3,
+      "window_start_sample": 1463
+    },
+    {
+      "index": 65,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11159,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.8822060227394104
+      ],
+      "vout_range": [
+        0.0,
+        0.5295235514640808
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 66,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11293,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.4739429950714111
+      ],
+      "vout_range": [
+        0.0,
+        0.8651559352874756
+      ],
+      "final_out_range": [
+        0.0,
+        1.3496229648590088
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 67,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11123,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.6344016790390015
+      ],
+      "vout_range": [
+        0.0,
+        0.8737399578094482
+      ],
+      "final_out_range": [
+        0.0,
+        1.34990394115448
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 68,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11303,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9367879629135132
+      ],
+      "vout_range": [
+        0.0,
+        0.5070595145225525
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 69,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10864,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.3361254036426544
+      ],
+      "vout_range": [
+        0.0,
+        0.17838799953460693
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 70,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10732,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.18995116651058197
+      ],
+      "vout_range": [
+        0.0,
+        0.12656451761722565
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 71,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10973,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4612071216106415
+      ],
+      "vout_range": [
+        0.0,
+        0.21656028926372528
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 72,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11276,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9047249555587769
+      ],
+      "vout_range": [
+        0.0,
+        0.5175348520278931
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 73,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11084,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.5309977531433105
+      ],
+      "vout_range": [
+        0.0,
+        0.3249630331993103
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 74,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11151,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.875511646270752
+      ],
+      "vout_range": [
+        0.0,
+        0.9754195213317871
+      ],
+      "final_out_range": [
+        0.0,
+        1.3496379852294922
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 75,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11285,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.0941319465637207
+      ],
+      "vout_range": [
+        0.0,
+        0.5435584187507629
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 76,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11079,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4205651581287384
+      ],
+      "vout_range": [
+        0.0,
+        0.24946840107440948
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 77,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10795,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4163826107978821
+      ],
+      "vout_range": [
+        0.0,
+        0.20437875390052795
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 78,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11054,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.6519212126731873
+      ],
+      "vout_range": [
+        0.0,
+        0.3300727903842926
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 79,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11226,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.0287761688232422
+      ],
+      "vout_range": [
+        0.0,
+        0.6297550797462463
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 80,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_04_start_001543/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11107,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.446524441242218
+      ],
+      "vout_range": [
+        0.0,
+        0.2694910764694214
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 4,
+      "window_start_sample": 1543
+    },
+    {
+      "index": 81,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch01.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch01.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11170,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.0082134008407593
+      ],
+      "vout_range": [
+        0.0,
+        0.4964907467365265
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 82,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch02.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch02.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10898,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.6640866994857788
+      ],
+      "vout_range": [
+        0.0,
+        0.2791554033756256
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 83,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch03.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch03.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11064,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.7321699857711792
+      ],
+      "vout_range": [
+        0.0,
+        0.43506091833114624
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 84,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch04.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch04.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11248,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.800466775894165
+      ],
+      "vout_range": [
+        0.0,
+        0.44021615386009216
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 85,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch05.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch05.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10837,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4748688340187073
+      ],
+      "vout_range": [
+        0.0,
+        0.2543307840824127
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 86,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch06.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch06.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10733,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.3853260576725006
+      ],
+      "vout_range": [
+        0.0,
+        0.18958884477615356
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 87,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch07.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch07.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10702,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.2272065132856369
+      ],
+      "vout_range": [
+        0.0,
+        0.14510981738567352
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 88,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch08.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch08.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11173,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.9047249555587769
+      ],
+      "vout_range": [
+        0.0,
+        0.47418659925460815
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 89,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch09.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch09.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10883,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.37717145681381226
+      ],
+      "vout_range": [
+        0.0,
+        0.22800257802009583
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 90,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch10.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch10.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11257,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.209038257598877
+      ],
+      "vout_range": [
+        0.0,
+        1.2715318202972412
+      ],
+      "final_out_range": [
+        0.0,
+        1.3729561567306519
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 91,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch11.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch11.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11309,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        2.299999952316284
+      ],
+      "vout_range": [
+        0.0,
+        1.4917547702789307
+      ],
+      "final_out_range": [
+        0.0,
+        1.3670274019241333
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 92,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch12.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch12.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 11109,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        1.3544566631317139
+      ],
+      "vout_range": [
+        0.0,
+        0.7755784392356873
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 93,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch13.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch13.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10625,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.14953044056892395
+      ],
+      "vout_range": [
+        0.0,
+        0.07980329543352127
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 94,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch14.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch14.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10903,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.8811753392219543
+      ],
+      "vout_range": [
+        0.0,
+        0.36056870222091675
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 95,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch15.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch15.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10824,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.4240509569644928
+      ],
+      "vout_range": [
+        0.0,
+        0.20264209806919098
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    },
+    {
+      "index": 96,
+      "group": "windows_sequence_pwl",
+      "pwl": "neurophic_system_model/16_channels_input_sample/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch16.pwl",
+      "picture": "neurophic_system_model/pictures/q99_linear/windows_sequence_pwl/window_05_start_001743/S01_label00_rep01_ch16.png",
+      "requested_duration_seconds": 0.2,
+      "ltspice_completed": true,
+      "raw_point_count": 10753,
+      "time_start_seconds": 0.0,
+      "time_end_seconds": 0.2,
+      "vin_range": [
+        0.0,
+        0.2609484791755676
+      ],
+      "vout_range": [
+        0.0,
+        0.13061802089214325
+      ],
+      "final_out_range": [
+        0.0,
+        1.3488215208053589
+      ],
+      "window_order": 5,
+      "window_start_sample": 1743
+    }
+  ],
+  "input_manifest": "neurophic_system_model/16_channels_input_sample/q99_linear/manifest.json"
+}

@@ -1,2 +1,6 @@
-# Ignore the ninapro_data directory
-ninapro_data
+# 忽略 NinaPro 原始数据、中间结果和解压后的脉冲目录。
+# 仅允许提交 ninapro_data/spikes 下生成的 ZIP 压缩包。
+ninapro_data/*
+!ninapro_data/spikes/
+ninapro_data/spikes/*
+!ninapro_data/spikes/*.zip
