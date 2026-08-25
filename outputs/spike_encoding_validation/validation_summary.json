@@ -1,0 +1,163 @@
+{
+  "random_seed": 42,
+  "selected_channels": [
+    2,
+    8,
+    10,
+    11
+  ],
+  "selected_windows": [
+    {
+      "label": 0,
+      "raw_label": 1,
+      "action_name_zh": "食指屈曲",
+      "split": "test",
+      "row_index": 73,
+      "subject": 1,
+      "repetition": 5,
+      "start_sample": 8971
+    },
+    {
+      "label": 1,
+      "raw_label": 2,
+      "action_name_zh": "食指伸展",
+      "split": "train",
+      "row_index": 3854,
+      "subject": 3,
+      "repetition": 4,
+      "start_sample": 17764
+    },
+    {
+      "label": 2,
+      "raw_label": 3,
+      "action_name_zh": "中指屈曲",
+      "split": "train",
+      "row_index": 2052,
+      "subject": 2,
+      "repetition": 4,
+      "start_sample": 31285
+    },
+    {
+      "label": 3,
+      "raw_label": 4,
+      "action_name_zh": "中指伸展",
+      "split": "train",
+      "row_index": 13078,
+      "subject": 8,
+      "repetition": 6,
+      "start_sample": 47421
+    },
+    {
+      "label": 4,
+      "raw_label": 5,
+      "action_name_zh": "无名指屈曲",
+      "split": "test",
+      "row_index": 8206,
+      "subject": 10,
+      "repetition": 5,
+      "start_sample": 57836
+    },
+    {
+      "label": 5,
+      "raw_label": 6,
+      "action_name_zh": "无名指伸展",
+      "split": "test",
+      "row_index": 2119,
+      "subject": 3,
+      "repetition": 2,
+      "start_sample": 57469
+    },
+    {
+      "label": 6,
+      "raw_label": 7,
+      "action_name_zh": "小指屈曲",
+      "split": "test",
+      "row_index": 2216,
+      "subject": 3,
+      "repetition": 5,
+      "start_sample": 74064
+    },
+    {
+      "label": 7,
+      "raw_label": 8,
+      "action_name_zh": "小指伸展",
+      "split": "test",
+      "row_index": 1460,
+      "subject": 2,
+      "repetition": 5,
+      "start_sample": 95306
+    },
+    {
+      "label": 8,
+      "raw_label": 9,
+      "action_name_zh": "拇指内收",
+      "split": "test",
+      "row_index": 3128,
+      "subject": 4,
+      "repetition": 2,
+      "start_sample": 100483
+    },
+    {
+      "label": 9,
+      "raw_label": 10,
+      "action_name_zh": "拇指外展",
+      "split": "train",
+      "row_index": 15448,
+      "subject": 9,
+      "repetition": 1,
+      "start_sample": 112528
+    },
+    {
+      "label": 10,
+      "raw_label": 11,
+      "action_name_zh": "拇指屈曲",
+      "split": "train",
+      "row_index": 3432,
+      "subject": 2,
+      "repetition": 6,
+      "start_sample": 135209
+    },
+    {
+      "label": 11,
+      "raw_label": 12,
+      "action_name_zh": "拇指伸展",
+      "split": "test",
+      "row_index": 5133,
+      "subject": 6,
+      "repetition": 2,
+      "start_sample": 142632
+    }
+  ],
+  "task_count": 48,
+  "source_circuit": "neurophic_system_model/System_with_TIA.asc",
+  "source_circuit_sha256": "1199194535ba01edcd56ba85c0bceeb568a34231e0609febe8f59ad17be0fde2",
+  "python_model": "neurophic_system_model/system_with_tia.py",
+  "python_model_sha256": "cf4e361fa4d708c5145c04f06cdef251a3fa8bc22a57bd2566ae26da2917999e",
+  "encoding_fingerprint": "6de2b86a09500d89c08e5cb31a0271f76af3a0a25869c7c5e967c61d68bd5f6a",
+  "source_npz_hash_report": {
+    "train": {
+      "expected": "db2988f8dc3f1dffccc2d4a461de946d56b6570515e96775e9ae2f42cf3932dc",
+      "actual": "99cb33243801938d65b7bf9ab403052022d0f12f880db0a0b6f837c27fa0b5bf",
+      "matches": false
+    },
+    "test": {
+      "expected": "0793d9e10d9296da3874bd0bfa801ec003c43090eb6420f950908f344608f501",
+      "actual": "2c94d9077d339f83e255ea0f9898708b63a40a413dfe4a03f03b473f59d12ad9",
+      "matches": false
+    }
+  },
+  "spike_detection": {
+    "arm_voltage": 1.55,
+    "fire_voltage": 1.25,
+    "edge": "falling",
+    "refractory_seconds": 0.0005,
+    "T": 40,
+    "bin_duration_seconds": 0.005
+  },
+  "python_saved_binary_exact": "48/48",
+  "python_saved_counts_exact": "48/48",
+  "mean_agreement_ltspice_python": 0.9958333333333332,
+  "mean_agreement_ltspice_saved": 0.9958333333333332,
+  "median_vout_correlation": 0.9999997390509434,
+  "median_final_out_correlation": 0.9999027148084976
+}
