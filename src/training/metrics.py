@@ -57,13 +57,17 @@ class ClassificationMeter:
     """累计批次损失和混淆矩阵。"""
 
     def __init__(self, num_classes):
-        if not isinstance(num_classes, int) or isinstance(num_classes, bool) or num_classes <= 0:
+        if (
+            not isinstance(num_classes, int)
+            or isinstance(num_classes, bool)
+            or num_classes <= 0
+        ):
             raise ValueError("num_classes 必须是正整数")
         self.num_classes = num_classes
         self.reset()
 
     def reset(self):
-        self.loss_sum = 0.0
+        self.loss_sum = None
         self.sample_count = 0
         self.confusion_matrix = torch.zeros(
             self.num_classes,
@@ -82,25 +86,34 @@ class ClassificationMeter:
         if targets.numel() == 0:
             raise ValueError("批次不能为空")
 
-        targets_cpu = targets.detach().to(device="cpu", dtype=torch.int64)
-        predictions = logits.detach().argmax(dim=1).to(device="cpu", dtype=torch.int64)
-        if torch.any(targets_cpu < 0) or torch.any(targets_cpu >= self.num_classes):
+        targets_local = targets.detach().to(device=logits.device, dtype=torch.int64)
+        predictions = logits.detach().argmax(dim=1).to(dtype=torch.int64)
+        if targets_local.device.type == "cpu" and (
+            torch.any(targets_local < 0) or torch.any(targets_local >= self.num_classes)
+        ):
             raise ValueError("targets 中存在超出类别范围的标签")
 
-        flat_indices = targets_cpu * self.num_classes + predictions
+        flat_indices = targets_local * self.num_classes + predictions
         batch_confusion = torch.bincount(
             flat_indices,
             minlength=self.num_classes * self.num_classes,
         ).reshape(self.num_classes, self.num_classes)
+        if self.confusion_matrix.device != batch_confusion.device:
+            # 首个 CUDA 批次后始终在设备端累计，整轮只在 compute 时同步一次。
+            self.confusion_matrix = self.confusion_matrix.to(batch_confusion.device)
         self.confusion_matrix += batch_confusion
 
-        batch_size = targets_cpu.numel()
-        self.loss_sum += float(loss.detach()) * batch_size
+        batch_size = targets_local.numel()
+        batch_loss_sum = loss.detach().to(dtype=torch.float32) * batch_size
+        if self.loss_sum is None:
+            self.loss_sum = batch_loss_sum
+        else:
+            self.loss_sum += batch_loss_sum
         self.sample_count += batch_size
 
     def compute(self):
         if self.sample_count == 0:
             raise RuntimeError("尚未累计任何样本")
-        metrics = metrics_from_confusion_matrix(self.confusion_matrix)
-        metrics["loss"] = self.loss_sum / self.sample_count
+        metrics = metrics_from_confusion_matrix(self.confusion_matrix.cpu())
+        metrics["loss"] = float(self.loss_sum.cpu()) / self.sample_count
         return metrics

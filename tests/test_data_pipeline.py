@@ -6,10 +6,12 @@ import torch
 
 from src.data import (
     ChannelwiseZScore,
+    DeviceBatchLoader,
     NinaProWindowDataset,
     PhysicalDeviceMapping,
     create_data_pipeline,
     create_datasets,
+    create_device_data_loader,
 )
 from src.data import loaders
 
@@ -169,10 +171,14 @@ def test_num_workers_defaults_are_platform_aware(monkeypatch):
     )
     assert loaders.resolve_num_workers() == 8
 
-    monkeypatch.setattr(loaders.os, "sched_getaffinity", lambda process_id: set(range(6)))
+    monkeypatch.setattr(
+        loaders.os, "sched_getaffinity", lambda process_id: set(range(6))
+    )
     assert loaders.resolve_num_workers() == 3
 
-    monkeypatch.setattr(loaders.os, "sched_getaffinity", lambda process_id: set(range(2)))
+    monkeypatch.setattr(
+        loaders.os, "sched_getaffinity", lambda process_id: set(range(2))
+    )
     assert loaders.resolve_num_workers() == 0
 
     assert loaders.resolve_num_workers(5) == 5
@@ -182,3 +188,35 @@ def test_num_workers_defaults_are_platform_aware(monkeypatch):
 def test_num_workers_rejects_invalid_explicit_values(invalid_value):
     with pytest.raises(ValueError):
         loaders.resolve_num_workers(invalid_value)
+
+
+def test_device_data_loader_materializes_transform_and_preserves_samples(tmp_path):
+    x = np.arange(9 * 2 * 3, dtype=np.float32).reshape(9, 2, 3)
+    y = np.arange(9, dtype=np.int64)
+    write_dataset(tmp_path, x, y)
+    pipeline = create_data_pipeline(
+        tmp_path,
+        batch_size=4,
+        num_workers=0,
+        pin_memory=False,
+        seed=37,
+    )
+
+    fast_loader = create_device_data_loader(
+        pipeline.train_loader,
+        device="cpu",
+        dtype=torch.float16,
+        materialize_chunk_size=3,
+    )
+
+    assert isinstance(fast_loader, DeviceBatchLoader)
+    assert fast_loader.features.dtype == torch.float16
+    assert fast_loader.batch_size == 4
+    assert len(fast_loader) == 3
+    assert torch.allclose(
+        fast_loader.features.float(),
+        pipeline.train_loader.dataset.transform(pipeline.train_loader.dataset.features),
+        atol=1e-3,
+    )
+    observed_labels = torch.cat([labels for _, labels in fast_loader])
+    assert torch.equal(observed_labels.sort().values, torch.arange(9))

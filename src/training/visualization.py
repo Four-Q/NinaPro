@@ -75,7 +75,10 @@ def plot_training_history(history, path):
     )
     axes[1].plot(
         epochs,
-        [record["test_accuracy"] * 100.0 for record in history],
+        [
+            None if record["test_accuracy"] is None else record["test_accuracy"] * 100.0
+            for record in history
+        ],
         marker="o",
         markersize=3,
         label="Test",

@@ -67,7 +67,9 @@ def test_checkpoint_restores_model_optimizer_scheduler_and_metadata(tmp_path):
     model = TinyClassifier()
     optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=5)
-    original = {name: value.detach().clone() for name, value in model.state_dict().items()}
+    original = {
+        name: value.detach().clone() for name, value in model.state_dict().items()
+    }
 
     path = save_checkpoint(
         tmp_path / "checkpoint.pt",
@@ -121,8 +123,7 @@ def test_learning_rate_uses_five_epoch_warmup_then_ninety_five_epoch_cosine():
         [0.002, 0.0036, 0.0052, 0.0068, 0.0084, 0.01]
     )
     assert all(
-        left > right
-        for left, right in zip(learning_rates[5:], learning_rates[6:])
+        left > right for left, right in zip(learning_rates[5:], learning_rates[6:])
     )
     assert optimizer.param_groups[0]["lr"] == pytest.approx(0.0, abs=1e-12)
 
@@ -217,6 +218,32 @@ def test_fit_can_resume_only_when_checkpoint_is_explicit(tmp_path):
     assert [record["epoch"] for record in history] == [1, 2]
     last = load_checkpoint(tmp_path / "checkpoints" / "last.pt", resumed_model)
     assert last["epoch"] == 2
+
+
+def test_fit_can_reduce_evaluation_and_checkpoint_frequency(tmp_path):
+    train_loader, test_loader = make_loaders()
+    model = TinyClassifier()
+
+    history = fit(
+        model,
+        train_loader,
+        test_loader,
+        output_dir=tmp_path,
+        epochs=3,
+        learning_rate=0.05,
+        device="cpu",
+        eval_interval=2,
+        checkpoint_interval=2,
+        verbose=False,
+    )
+
+    assert history[0]["test_loss"] is None
+    assert history[0]["test_accuracy"] is None
+    assert history[1]["test_accuracy"] is not None
+    # 最后一轮始终评估和保存，避免间隔不能整除 epochs 时丢失最终状态。
+    assert history[2]["test_accuracy"] is not None
+    last = load_checkpoint(tmp_path / "checkpoints" / "last.pt", model)
+    assert last["epoch"] == 3
 
 
 def test_overfit_one_batch_reaches_target_accuracy():

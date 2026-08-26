@@ -2,10 +2,12 @@
 
 from .dataset import NinaProWindowDataset
 from .loaders import (
+    DeviceBatchLoader,
     NinaProDataPipeline,
     create_data_pipeline,
     create_dataloaders,
     create_datasets,
+    create_device_data_loader,
     resolve_num_workers,
 )
 from .transforms import (
@@ -18,6 +20,7 @@ from .transforms import (
 __all__ = [
     "ChannelwiseZScore",
     "ComposeTransforms",
+    "DeviceBatchLoader",
     "NinaProDataPipeline",
     "NinaProWindowDataset",
     "PhysicalDeviceMapping",
@@ -25,5 +28,6 @@ __all__ = [
     "create_data_pipeline",
     "create_dataloaders",
     "create_datasets",
+    "create_device_data_loader",
     "resolve_num_workers",
 ]

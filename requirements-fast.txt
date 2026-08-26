@@ -1,0 +1,2 @@
+# CUDA 12.x 可选加速后端；未安装时训练引擎会自动使用 torch.compile。
+cupy-cuda12x
