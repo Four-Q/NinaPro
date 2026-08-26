@@ -70,8 +70,8 @@ logits = model(x)
 训练输出和模型检查点默认保存在 `outputs/` 中。
 
 主训练 Notebook 默认启用快速配置：batch size 固定为 512、FP16 混合
-精度、GPU 常驻数据和每 5 轮评估/保存一次。若需要与旧实验逐轮对比，
-可将 `BATCH_SIZE` 改回 128，并将 `EVAL_INTERVAL`、
+精度、GPU 常驻数据、每轮评估测试集，并且每 5 轮保存一次常规检查点。
+若需要与旧实验逐轮对比，可将 `BATCH_SIZE` 改回 128，并将
 `CHECKPOINT_INTERVAL` 改回 1；`fit(...)` 的其他调用方式不变。
 
 ## 测试
