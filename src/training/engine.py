@@ -131,9 +131,7 @@ def fit(
     checkpoint_interval=1,
     fast_mode=True,
     prefer_cupy=True,
-    compile_model=True,
     gpu_resident_data=True,
-    auto_batch_size=True,
 ):
     """训练模型并按测试准确率保存最佳检查点。
 
@@ -153,9 +151,7 @@ def fit(
         checkpoint_interval,
         fast_mode,
         prefer_cupy,
-        compile_model,
         gpu_resident_data,
-        auto_batch_size,
     )
     device = resolve_device(device)
     output_dir = Path(output_dir).expanduser().resolve()
@@ -209,7 +205,6 @@ def fit(
         "checkpoint_interval": checkpoint_interval,
         "fast_mode": bool(fast_mode),
         "gpu_resident_data": resident_data,
-        "batch_size_limit": getattr(train_loader, "batch_size", None),
         "selection_split": "test",
         "test_selected_checkpoint": True,
     }
@@ -244,7 +239,6 @@ def fit(
         device=device,
         enabled=fast_mode,
         prefer_cupy=prefer_cupy,
-        compile_model=compile_model,
     )
     _warm_up_execution_model(
         execution_model,
@@ -254,19 +248,7 @@ def fit(
         device=device,
         amp_enabled=amp_enabled,
     )
-    selected_batch_size, batch_benchmarks = _autotune_batch_size(
-        execution_model,
-        train_runtime_loader,
-        test_runtime_loader,
-        criterion=criterion,
-        optimizer=optimizer,
-        device=device,
-        amp_enabled=amp_enabled,
-        enabled=bool(fast_mode and auto_batch_size and resident_data),
-    )
-    training_config["batch_size"] = selected_batch_size
-    training_config["batch_size_autotuned"] = bool(batch_benchmarks)
-    training_config["batch_size_benchmarks"] = batch_benchmarks
+    selected_batch_size = getattr(train_runtime_loader, "batch_size", None)
     execution_backend = getattr(
         execution_model,
         "backend_name",
@@ -483,30 +465,18 @@ def overfit_one_batch(
 
 
 class _ModelExecutor:
-    """为 CuPy/torch.compile 提供一次失败后自动回退的轻量代理。"""
+    """为 CuPy 提供一次失败后回退到 PyTorch eager 的轻量代理。"""
 
-    def __init__(
-        self,
-        model,
-        cupy_active=False,
-        compiled_model=None,
-        compile_on_fallback=False,
-    ):
+    def __init__(self, model, cupy_active=False):
         self.model = model
         self.cupy_active = cupy_active
-        self.compiled_model = compiled_model
-        self.compile_on_fallback = compile_on_fallback
 
     def train(self):
         self.model.train()
-        if self.compiled_model is not None:
-            self.compiled_model.train()
         return self
 
     def eval(self):
         self.model.eval()
-        if self.compiled_model is not None:
-            self.compiled_model.eval()
         return self
 
     def parameters(self):
@@ -516,8 +486,6 @@ class _ModelExecutor:
     def backend_name(self):
         if self.cupy_active:
             return "spikingjelly-cupy"
-        if self.compiled_model is not None:
-            return "torch-compile"
         return "torch-eager"
 
     def __call__(self, *args, **kwargs):
@@ -529,37 +497,13 @@ class _ModelExecutor:
                     raise
                 self.fallback(error)
 
-        if self.compiled_model is not None:
-            try:
-                return self.compiled_model(*args, **kwargs)
-            except Exception as error:
-                if _is_cuda_out_of_memory(error):
-                    raise
-                self.fallback(error)
-
         return self.model(*args, **kwargs)
 
     def fallback(self, error):
         if self.cupy_active:
-            # CuPy 可能因镜像中的 NVRTC/显卡架构不匹配而延迟失败。
-            warnings.warn(
-                f"CuPy SNN 后端不可用，自动回退到 PyTorch：{error}",
-                RuntimeWarning,
-            )
+            # 兼容问题已经在启用前处理；其他运行时失败则无警告回退。
             self.cupy_active = False
             _set_snn_backend(self.model, "torch")
-            _reset_model_state(self.model)
-            if self.compile_on_fallback:
-                self.compiled_model = _try_compile_model(self.model)
-            return True
-
-        if self.compiled_model is not None:
-            # 编译是可选优化，失败时不影响训练正确性和原有接口。
-            warnings.warn(
-                f"torch.compile 不适用于当前模型，自动回退到 eager：{error}",
-                RuntimeWarning,
-            )
-            self.compiled_model = None
             _reset_model_state(self.model)
             return True
         return False
@@ -588,18 +532,15 @@ def _warm_up_execution_model(
 
     inputs = inputs.to(device, non_blocking=True)
     targets = targets.to(device, non_blocking=True)
-    warmup_steps = 1 if execution_model.cupy_active else 3
-
-    # 最多依次验证 CuPy、torch.compile、eager 三条路径。
-    for _ in range(3):
+    # CuPy 失败时只重试一次 PyTorch eager，不进入其他执行后端。
+    for _ in range(2):
         try:
             execution_model.train()
-            for _ in range(warmup_steps):
-                optimizer.zero_grad(set_to_none=True)
-                with _autocast_context(device, amp_enabled):
-                    logits = execution_model(inputs)
-                    loss = criterion(logits, targets)
-                loss.backward()
+            optimizer.zero_grad(set_to_none=True)
+            with _autocast_context(device, amp_enabled):
+                logits = execution_model(inputs)
+                loss = criterion(logits, targets)
+            loss.backward()
             optimizer.zero_grad(set_to_none=True)
             _reset_model_state(execution_model.model)
             return
@@ -608,9 +549,8 @@ def _warm_up_execution_model(
             _reset_model_state(execution_model.model)
             if not execution_model.fallback(error):
                 raise
-            warmup_steps = 3 if execution_model.compiled_model is not None else 1
 
-    raise RuntimeError("所有 CUDA 加速后端均无法完成前向和反向预热")
+    raise RuntimeError("CuPy 与 PyTorch eager 均无法完成前向和反向预热")
 
 
 def _prepare_data_loaders(
@@ -652,112 +592,6 @@ def _prepare_data_loaders(
     return fast_train_loader, fast_test_loader, True
 
 
-def _autotune_batch_size(
-    execution_model,
-    train_loader,
-    test_loader,
-    criterion,
-    optimizer,
-    device,
-    amp_enabled,
-    enabled,
-):
-    configured_size = getattr(train_loader, "batch_size", None)
-    if not enabled or device.type != "cuda" or configured_size is None:
-        return configured_size, {}
-    if not hasattr(train_loader, "features") or not hasattr(train_loader, "labels"):
-        return configured_size, {}
-    if (
-        isinstance(execution_model, _ModelExecutor)
-        and execution_model.compiled_model is not None
-        and not execution_model.cupy_active
-    ):
-        # 多尺寸 torch.compile 会缓存多份 CUDA Graph，得不偿失。
-        return configured_size, {}
-
-    sample_count = train_loader.labels.shape[0]
-    maximum_size = min(configured_size, sample_count)
-    candidates = {size for size in (512, 1024, 2048, 4096) if size <= maximum_size}
-    candidates.add(maximum_size)
-    benchmarks = {}
-
-    for batch_size in sorted(candidates):
-        inputs = train_loader.features[:batch_size]
-        targets = train_loader.labels[:batch_size]
-        try:
-            # 首次执行负责初始化 cuBLAS/自定义 CUDA 内核，不计入稳态吞吐。
-            _run_benchmark_step(
-                execution_model,
-                inputs,
-                targets,
-                criterion,
-                optimizer,
-                device,
-                amp_enabled,
-            )
-            torch.cuda.synchronize(device)
-            start_event = torch.cuda.Event(enable_timing=True)
-            end_event = torch.cuda.Event(enable_timing=True)
-            repeats = 2
-            start_event.record()
-            for _ in range(repeats):
-                _run_benchmark_step(
-                    execution_model,
-                    inputs,
-                    targets,
-                    criterion,
-                    optimizer,
-                    device,
-                    amp_enabled,
-                )
-            end_event.record()
-            end_event.synchronize()
-            elapsed_seconds = start_event.elapsed_time(end_event) / 1000.0
-            benchmarks[str(batch_size)] = batch_size * repeats / elapsed_seconds
-        except Exception as error:
-            if not _is_cuda_out_of_memory(error):
-                raise
-            optimizer.zero_grad(set_to_none=True)
-            _reset_model_state(_unwrap_model(execution_model))
-            torch.cuda.empty_cache()
-            break
-
-    if not benchmarks:
-        return configured_size, {}
-
-    selected_size = max(
-        (int(size) for size in benchmarks),
-        key=lambda size: benchmarks[str(size)],
-    )
-    train_loader.batch_size = selected_size
-    if hasattr(test_loader, "batch_size"):
-        test_loader.batch_size = selected_size
-    return selected_size, benchmarks
-
-
-def _run_benchmark_step(
-    execution_model,
-    inputs,
-    targets,
-    criterion,
-    optimizer,
-    device,
-    amp_enabled,
-):
-    optimizer.zero_grad(set_to_none=True)
-    execution_model.train()
-    with _autocast_context(device, amp_enabled):
-        logits = execution_model(inputs)
-        loss = criterion(logits, targets)
-    loss.backward()
-    optimizer.zero_grad(set_to_none=True)
-    _reset_model_state(_unwrap_model(execution_model))
-
-
-def _unwrap_model(model):
-    return model.model if isinstance(model, _ModelExecutor) else model
-
-
 def _is_cuda_out_of_memory(error):
     cuda_oom_type = getattr(torch.cuda, "OutOfMemoryError", None)
     typed_oom = cuda_oom_type is not None and isinstance(error, cuda_oom_type)
@@ -769,39 +603,26 @@ def _prepare_execution_model(
     device,
     enabled,
     prefer_cupy,
-    compile_model,
 ):
     if not enabled or device.type != "cuda":
         return model, "torch-eager"
 
     cupy_available = bool(prefer_cupy and importlib.util.find_spec("cupy") is not None)
+    if cupy_available:
+        _ensure_spikingjelly_numpy_compatibility()
     if cupy_available and _set_snn_backend(model, "cupy") > 0:
-        executor = _ModelExecutor(
-            model,
-            cupy_active=True,
-            compile_on_fallback=compile_model,
-        )
+        executor = _ModelExecutor(model, cupy_active=True)
         return executor, "spikingjelly-cupy"
-
-    if compile_model:
-        compiled_model = _try_compile_model(model)
-        if compiled_model is not None:
-            return _ModelExecutor(model, compiled_model=compiled_model), "torch-compile"
 
     return model, "torch-eager"
 
 
-def _try_compile_model(model):
-    if not hasattr(torch, "compile"):
-        return None
-    try:
-        return torch.compile(model, mode="reduce-overhead", dynamic=False)
-    except Exception as error:
-        warnings.warn(
-            f"无法初始化 torch.compile，继续使用 eager：{error}",
-            RuntimeWarning,
-        )
-        return None
+def _ensure_spikingjelly_numpy_compatibility():
+    import numpy as np
+
+    # 旧版 SpikingJelly 的 CuPy 内核生成器仍读取 np.int；新 NumPy 已移除此别名。
+    if "int" not in np.__dict__:
+        np.__dict__["int"] = int
 
 
 def _set_snn_backend(model, backend):
@@ -872,9 +693,7 @@ def _validate_fit_options(
     checkpoint_interval,
     fast_mode,
     prefer_cupy,
-    compile_model,
     gpu_resident_data,
-    auto_batch_size,
 ):
     if not isinstance(epochs, int) or isinstance(epochs, bool) or epochs <= 0:
         raise ValueError("epochs 必须是正整数")
@@ -906,9 +725,7 @@ def _validate_fit_options(
     boolean_options = {
         "fast_mode": fast_mode,
         "prefer_cupy": prefer_cupy,
-        "compile_model": compile_model,
         "gpu_resident_data": gpu_resident_data,
-        "auto_batch_size": auto_batch_size,
     }
     for name, value in boolean_options.items():
         if not isinstance(value, bool):

@@ -1,5 +1,7 @@
 import json
+import warnings
 
+import numpy as np
 import pytest
 import torch
 from torch import nn
@@ -14,7 +16,10 @@ from src.training import (
     save_checkpoint,
     seed_everything,
 )
-from src.training.engine import _create_learning_rate_scheduler
+from src.training.engine import (
+    _create_learning_rate_scheduler,
+    _ensure_spikingjelly_numpy_compatibility,
+)
 
 
 class TinyClassifier(nn.Module):
@@ -284,3 +289,14 @@ def test_seed_everything_repeats_torch_and_numpy_sequences():
 
     assert torch.equal(first_torch, second_torch)
     assert (first_numpy == second_numpy).all()
+
+
+def test_spikingjelly_numpy_compatibility_restores_removed_int_alias(monkeypatch):
+    monkeypatch.delitem(np.__dict__, "int", raising=False)
+
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always")
+        _ensure_spikingjelly_numpy_compatibility()
+
+    assert np.__dict__["int"] is int
+    assert caught == []

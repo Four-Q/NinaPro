@@ -36,8 +36,9 @@ RTX 50 系列与 CUDA 12.x 环境建议额外安装 SpikingJelly 的融合 CUDA 
 pip install -r requirements-fast.txt
 ```
 
-未安装 CuPy 或 CuPy 与运行环境不兼容时，训练引擎会自动回退到
-`torch.compile`，再失败则回退到原始 eager 模式，不影响原有训练接口。
+训练引擎会为旧版 SpikingJelly 补充新 NumPy 已移除的 `np.int` 兼容别名。
+未安装 CuPy 或 CuPy 仍不可用时，会直接回退到 PyTorch eager 模式；训练
+流程不会调用 `torch.compile`。
 
 ## 使用
 
@@ -68,11 +69,10 @@ logits = model(x)
 
 训练输出和模型检查点默认保存在 `outputs/` 中。
 
-主训练 Notebook 默认启用快速配置：batch size 上限 4096（CUDA 启动时从
-512、1024、2048、4096 中自动选择稳态吞吐最高者）、FP16 混合精度、
-GPU 常驻数据和每 5 轮评估/保存一次。若需要与旧实验逐轮对比，可将
-`BATCH_SIZE` 改回 128，并将 `EVAL_INTERVAL`、`CHECKPOINT_INTERVAL`
-改回 1；`fit(...)` 的其他调用方式不变。
+主训练 Notebook 默认启用快速配置：batch size 固定为 512、FP16 混合
+精度、GPU 常驻数据和每 5 轮评估/保存一次。若需要与旧实验逐轮对比，
+可将 `BATCH_SIZE` 改回 128，并将 `EVAL_INTERVAL`、
+`CHECKPOINT_INTERVAL` 改回 1；`fit(...)` 的其他调用方式不变。
 
 ## 测试
 
