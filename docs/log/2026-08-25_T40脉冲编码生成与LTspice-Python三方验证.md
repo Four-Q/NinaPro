@@ -61,7 +61,7 @@ V3 映射使用训练集为每个通道计算的 `p1/p99` 分位点参数，将�
 
 编码流程位于：
 
-- `src/spike_encoding.ipynb`
+- `src/neurophic_system_spike_encoding.ipynb`
 
 主要职责：
 
@@ -76,7 +76,7 @@ V3 映射使用训练集为每个通道计算的 `p1/p99` 分位点参数，将�
 
 解压流程位于：
 
-- `src/prepare_spike_data.ipynb`
+- `src/prepare_neurophic_system_spike_data.ipynb`
 
 该 Notebook 将编码阶段生成的 ZIP 安全解压到本地目标数据目录，并检查压缩包成员路径，避免路径穿越。它适用于从 GitHub 或远程运行环境取回数据后的本地准备过程。
 
