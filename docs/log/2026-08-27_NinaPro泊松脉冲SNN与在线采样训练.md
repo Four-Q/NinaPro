@@ -61,11 +61,7 @@ u=\operatorname{clip}(x+128,0,255)
 \lambda=100\frac{u}{255}\ \mathrm{Hz}
 \]
 
-`polarity_split` 先分离正负幅值：
-
-\[
-x^+=\max(x,0),\qquad x^-=\max(-x,0)
-\]
+`polarity_split` 先v
 
 再使用固定参考幅值与幂次映射：
 

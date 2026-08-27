@@ -1,8 +1,11 @@
 # 忽略 NinaPro 原始数据、中间结果和解压后的脉冲目录。
-# 仅允许提交 offset_128 下生成的 ZIP 压缩包。
+# 仅允许提交各已实现神经形态编码方案生成的 ZIP 压缩包。
 ninapro_data/*
 !ninapro_data/neurophic_system_spikes/
 ninapro_data/neurophic_system_spikes/*
 !ninapro_data/neurophic_system_spikes/offset_128/
 ninapro_data/neurophic_system_spikes/offset_128/*
 !ninapro_data/neurophic_system_spikes/offset_128/*.zip
+!ninapro_data/neurophic_system_spikes/polarity_split/
+ninapro_data/neurophic_system_spikes/polarity_split/*
+!ninapro_data/neurophic_system_spikes/polarity_split/*.zip
