@@ -20,6 +20,7 @@ from src.training.engine import (
     _create_learning_rate_scheduler,
     _ensure_spikingjelly_numpy_compatibility,
 )
+from src.training import visualization as training_visualization
 
 
 class TinyClassifier(nn.Module):
@@ -53,6 +54,81 @@ def test_metrics_from_confusion_matrix_are_correct():
     assert metrics["per_class_accuracy"] == pytest.approx([3 / 4, 4 / 6])
     assert metrics["confusion_matrix"] == [[3, 1], [2, 4]]
     assert metrics["samples"] == 10
+
+
+def test_visualizations_use_english_labels_and_annotate_best_epochs(
+    tmp_path,
+    monkeypatch,
+):
+    captured_figures = []
+
+    def capture_figure(figure, path):
+        captured_figures.append(figure)
+        return path
+
+    monkeypatch.setattr(training_visualization, "_save_figure", capture_figure)
+    history = [
+        {
+            "epoch": 1,
+            "train_loss": 0.8,
+            "test_loss": None,
+            "train_accuracy": 0.5,
+            "test_accuracy": None,
+            "learning_rate": 1e-3,
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.4,
+            "test_loss": 0.6,
+            "train_accuracy": 0.8,
+            "test_accuracy": 0.7,
+            "learning_rate": 5e-4,
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.5,
+            "test_loss": 0.3,
+            "train_accuracy": 0.75,
+            "test_accuracy": 0.9,
+            "learning_rate": 1e-4,
+        },
+    ]
+    legacy_names = ["食指屈曲", "食指伸展"]
+
+    training_visualization.plot_training_history(history, tmp_path / "curves.png")
+    training_visualization.plot_confusion_matrix(
+        [[2, 1], [0, 3]],
+        tmp_path / "confusion.png",
+        class_names=legacy_names,
+    )
+    training_visualization.plot_per_class_accuracy(
+        [2 / 3, 1.0],
+        tmp_path / "per_class.png",
+        class_names=legacy_names,
+    )
+
+    training_figure, confusion_figure, per_class_figure = captured_figures
+    annotation_texts = {
+        text.get_text()
+        for axis in training_figure.axes[:2]
+        for text in axis.texts
+    }
+    assert annotation_texts == {
+        "Train min loss\nEpoch 2: 0.4000",
+        "Test min loss\nEpoch 3: 0.3000",
+        "Train max accuracy\nEpoch 2: 80.00%",
+        "Test max accuracy\nEpoch 3: 90.00%",
+    }
+    expected_names = ["Index flexion", "Index extension"]
+    assert [
+        label.get_text() for label in confusion_figure.axes[0].get_xticklabels()
+    ] == expected_names
+    assert [
+        label.get_text() for label in per_class_figure.axes[0].get_xticklabels()
+    ] == expected_names
+
+    for figure in captured_figures:
+        training_visualization.plt.close(figure)
 
 
 def test_classification_meter_accumulates_loss_and_predictions():
