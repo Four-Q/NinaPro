@@ -1,6 +1,8 @@
 # 忽略 NinaPro 原始数据、中间结果和解压后的脉冲目录。
-# 仅允许提交 ninapro_data/spikes 下生成的 ZIP 压缩包。
+# 仅允许提交 offset_128 下生成的 ZIP 压缩包。
 ninapro_data/*
-!ninapro_data/spikes/
-ninapro_data/spikes/*
-!ninapro_data/spikes/*.zip
+!ninapro_data/neurophic_system_spikes/
+ninapro_data/neurophic_system_spikes/*
+!ninapro_data/neurophic_system_spikes/offset_128/
+ninapro_data/neurophic_system_spikes/offset_128/*
+!ninapro_data/neurophic_system_spikes/offset_128/*.zip
