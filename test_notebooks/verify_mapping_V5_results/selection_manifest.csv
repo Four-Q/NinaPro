@@ -1,0 +1,4 @@
+﻿window_number,global_index,split,row_index,label,raw_label,action_name_zh,subject,repetition,start_sample,selected_channels
+1,17428,train,17428,8,9,拇指内收,10,4,104779,2;3;9;10;13;15
+2,2376,train,2376,4,5,无名指屈曲,2,3,53975,2;6;7;8;11;16
+3,20606,test,2767,3,4,中指伸展,4,2,38675,2;4;6;7;10;14

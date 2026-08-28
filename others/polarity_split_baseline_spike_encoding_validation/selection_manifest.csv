@@ -1,0 +1,13 @@
+﻿label,raw_label,action_name_zh,split,row_index,subject,repetition,start_sample,selection_mode,selection_pool_size,saved_window_spike_count,active_original_channels,selected_original_channels
+0,1,食指屈曲,train,1682,2,4,7182,random_from_spiking_windows,2360,1,16,7;10;11;16
+1,2,食指伸展,train,1787,2,1,13337,random_from_spiking_windows,1631,1,16,2;3;10;16
+2,3,中指屈曲,test,1009,2,5,33640,random_from_spiking_windows,1993,1,15,10;11;12;15
+3,4,中指伸展,test,3684,5,5,45762,random_from_spiking_windows,1512,3,11;12,6;8;11;12
+4,5,无名指屈曲,train,4265,3,4,50036,random_from_spiking_windows,1663,3,1;16,1;12;14;16
+5,6,无名指伸展,train,11606,7,4,67700,random_from_spiking_windows,1707,3,9;10,8;9;10;13
+6,7,小指屈曲,train,13386,8,1,74746,random_from_spiking_windows,1948,1,13,2;3;9;13
+7,8,小指伸展,test,4933,6,5,96450,random_from_spiking_windows,1630,1,14,4;10;11;14
+8,9,拇指内收,test,570,1,2,88943,random_from_spiking_windows,1479,2,3;6,1;3;6;7
+9,10,拇指外展,train,13877,8,3,115772,random_from_spiking_windows,1970,1,2,2;11;13;16
+10,11,拇指屈曲,train,10478,6,1,128509,random_from_spiking_windows,1470,7,1;4;9;11,1;4;9;11
+11,12,拇指伸展,train,14077,8,1,136921,random_from_spiking_windows,1705,19,2;7;8;9;13;14;15,2;7;9;15

@@ -1,0 +1,353 @@
+{
+  "random_seed": 42,
+  "T_values": [
+    40,
+    80,
+    120
+  ],
+  "mapping": {
+    "name": "V4.1 polarity_split baseline-gated overall per-channel p1/p99",
+    "formula": "V=0 if amplitude==0 else baseline+(maximum-baseline)*normalized_amplitude",
+    "baseline_voltage": 1.8639,
+    "maximum_voltage": 3.7278
+  },
+  "selection_policy": {
+    "spiking_action": "random window among windows with saved spikes",
+    "silent_action": "random window among maximum normalized-peak windows",
+    "channels": "include active original channels, then randomly fill to four; validate both polarities",
+    "shared_across_T": true
+  },
+  "selected_windows": [
+    {
+      "label": 0,
+      "raw_label": 1,
+      "action_name_zh": "食指屈曲",
+      "split": "train",
+      "row_index": 1682,
+      "subject": 2,
+      "repetition": 4,
+      "start_sample": 7182,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 2360,
+      "saved_window_spike_count": 1,
+      "active_original_channels": "16",
+      "selected_original_channels": "7;10;11;16"
+    },
+    {
+      "label": 1,
+      "raw_label": 2,
+      "action_name_zh": "食指伸展",
+      "split": "train",
+      "row_index": 1787,
+      "subject": 2,
+      "repetition": 1,
+      "start_sample": 13337,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1631,
+      "saved_window_spike_count": 1,
+      "active_original_channels": "16",
+      "selected_original_channels": "2;3;10;16"
+    },
+    {
+      "label": 2,
+      "raw_label": 3,
+      "action_name_zh": "中指屈曲",
+      "split": "test",
+      "row_index": 1009,
+      "subject": 2,
+      "repetition": 5,
+      "start_sample": 33640,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1993,
+      "saved_window_spike_count": 1,
+      "active_original_channels": "15",
+      "selected_original_channels": "10;11;12;15"
+    },
+    {
+      "label": 3,
+      "raw_label": 4,
+      "action_name_zh": "中指伸展",
+      "split": "test",
+      "row_index": 3684,
+      "subject": 5,
+      "repetition": 5,
+      "start_sample": 45762,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1512,
+      "saved_window_spike_count": 3,
+      "active_original_channels": "11;12",
+      "selected_original_channels": "6;8;11;12"
+    },
+    {
+      "label": 4,
+      "raw_label": 5,
+      "action_name_zh": "无名指屈曲",
+      "split": "train",
+      "row_index": 4265,
+      "subject": 3,
+      "repetition": 4,
+      "start_sample": 50036,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1663,
+      "saved_window_spike_count": 3,
+      "active_original_channels": "1;16",
+      "selected_original_channels": "1;12;14;16"
+    },
+    {
+      "label": 5,
+      "raw_label": 6,
+      "action_name_zh": "无名指伸展",
+      "split": "train",
+      "row_index": 11606,
+      "subject": 7,
+      "repetition": 4,
+      "start_sample": 67700,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1707,
+      "saved_window_spike_count": 3,
+      "active_original_channels": "9;10",
+      "selected_original_channels": "8;9;10;13"
+    },
+    {
+      "label": 6,
+      "raw_label": 7,
+      "action_name_zh": "小指屈曲",
+      "split": "train",
+      "row_index": 13386,
+      "subject": 8,
+      "repetition": 1,
+      "start_sample": 74746,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1948,
+      "saved_window_spike_count": 1,
+      "active_original_channels": "13",
+      "selected_original_channels": "2;3;9;13"
+    },
+    {
+      "label": 7,
+      "raw_label": 8,
+      "action_name_zh": "小指伸展",
+      "split": "test",
+      "row_index": 4933,
+      "subject": 6,
+      "repetition": 5,
+      "start_sample": 96450,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1630,
+      "saved_window_spike_count": 1,
+      "active_original_channels": "14",
+      "selected_original_channels": "4;10;11;14"
+    },
+    {
+      "label": 8,
+      "raw_label": 9,
+      "action_name_zh": "拇指内收",
+      "split": "test",
+      "row_index": 570,
+      "subject": 1,
+      "repetition": 2,
+      "start_sample": 88943,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1479,
+      "saved_window_spike_count": 2,
+      "active_original_channels": "3;6",
+      "selected_original_channels": "1;3;6;7"
+    },
+    {
+      "label": 9,
+      "raw_label": 10,
+      "action_name_zh": "拇指外展",
+      "split": "train",
+      "row_index": 13877,
+      "subject": 8,
+      "repetition": 3,
+      "start_sample": 115772,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1970,
+      "saved_window_spike_count": 1,
+      "active_original_channels": "2",
+      "selected_original_channels": "2;11;13;16"
+    },
+    {
+      "label": 10,
+      "raw_label": 11,
+      "action_name_zh": "拇指屈曲",
+      "split": "train",
+      "row_index": 10478,
+      "subject": 6,
+      "repetition": 1,
+      "start_sample": 128509,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1470,
+      "saved_window_spike_count": 7,
+      "active_original_channels": "1;4;9;11",
+      "selected_original_channels": "1;4;9;11"
+    },
+    {
+      "label": 11,
+      "raw_label": 12,
+      "action_name_zh": "拇指伸展",
+      "split": "train",
+      "row_index": 14077,
+      "subject": 8,
+      "repetition": 1,
+      "start_sample": 136921,
+      "selection_mode": "random_from_spiking_windows",
+      "selection_pool_size": 1705,
+      "saved_window_spike_count": 19,
+      "active_original_channels": "2;7;8;9;13;14;15",
+      "selected_original_channels": "2;7;9;15"
+    }
+  ],
+  "waveform_task_count": 96,
+  "metric_row_count": 288,
+  "source_circuit": "neurophic_system_model/System_with_TIA.asc",
+  "source_circuit_sha256": "1199194535ba01edcd56ba85c0bceeb568a34231e0609febe8f59ad17be0fde2",
+  "python_model": "neurophic_system_model/system_with_tia.py",
+  "python_model_sha256": "cf4e361fa4d708c5145c04f06cdef251a3fa8bc22a57bd2566ae26da2917999e",
+  "encoding_fingerprints": {
+    "T_40": "cd86c13d8ab76998e9bff55c652ecda7c7623d847581ba35362bfa10c543feca",
+    "T_80": "197e30ef9df06fd910266069bb27a1bd95013353d1cd292ccbb96baa6ea1b09d",
+    "T_120": "679b48e992b4078d5356f31b3517638844bad2676948e251ae93a1b1e3009563"
+  },
+  "source_npz_hash_report": {
+    "train": {
+      "T_40": {
+        "expected": "db2988f8dc3f1dffccc2d4a461de946d56b6570515e96775e9ae2f42cf3932dc",
+        "actual": "99cb33243801938d65b7bf9ab403052022d0f12f880db0a0b6f837c27fa0b5bf",
+        "matches": false
+      },
+      "T_80": {
+        "expected": "db2988f8dc3f1dffccc2d4a461de946d56b6570515e96775e9ae2f42cf3932dc",
+        "actual": "99cb33243801938d65b7bf9ab403052022d0f12f880db0a0b6f837c27fa0b5bf",
+        "matches": false
+      },
+      "T_120": {
+        "expected": "db2988f8dc3f1dffccc2d4a461de946d56b6570515e96775e9ae2f42cf3932dc",
+        "actual": "99cb33243801938d65b7bf9ab403052022d0f12f880db0a0b6f837c27fa0b5bf",
+        "matches": false
+      }
+    },
+    "test": {
+      "T_40": {
+        "expected": "0793d9e10d9296da3874bd0bfa801ec003c43090eb6420f950908f344608f501",
+        "actual": "2c94d9077d339f83e255ea0f9898708b63a40a413dfe4a03f03b473f59d12ad9",
+        "matches": false
+      },
+      "T_80": {
+        "expected": "0793d9e10d9296da3874bd0bfa801ec003c43090eb6420f950908f344608f501",
+        "actual": "2c94d9077d339f83e255ea0f9898708b63a40a413dfe4a03f03b473f59d12ad9",
+        "matches": false
+      },
+      "T_120": {
+        "expected": "0793d9e10d9296da3874bd0bfa801ec003c43090eb6420f950908f344608f501",
+        "actual": "2c94d9077d339f83e255ea0f9898708b63a40a413dfe4a03f03b473f59d12ad9",
+        "matches": false
+      }
+    }
+  },
+  "dataset_spike_summary": {
+    "40": {
+      "train": {
+        "total_spikes": 44582,
+        "spiking_windows": 14117,
+        "positive_spikes": 849,
+        "negative_spikes": 43733
+      },
+      "test": {
+        "total_spikes": 21980,
+        "spiking_windows": 6951,
+        "positive_spikes": 391,
+        "negative_spikes": 21589
+      }
+    },
+    "80": {
+      "train": {
+        "total_spikes": 44582,
+        "spiking_windows": 14117,
+        "positive_spikes": 849,
+        "negative_spikes": 43733
+      },
+      "test": {
+        "total_spikes": 21980,
+        "spiking_windows": 6951,
+        "positive_spikes": 391,
+        "negative_spikes": 21589
+      }
+    },
+    "120": {
+      "train": {
+        "total_spikes": 44582,
+        "spiking_windows": 14117,
+        "positive_spikes": 849,
+        "negative_spikes": 43733
+      },
+      "test": {
+        "total_spikes": 21980,
+        "spiking_windows": 6951,
+        "positive_spikes": 391,
+        "negative_spikes": 21589
+      }
+    }
+  },
+  "spike_detection": {
+    "arm_voltage": 1.55,
+    "fire_voltage": 1.25,
+    "edge": "falling",
+    "refractory_seconds": 0.0005
+  },
+  "waveform_metrics": {
+    "median_vin_rmse": 5.2450524334450845e-08,
+    "median_vout_rmse": 5.058493640242342e-05,
+    "mean_vout_correlation": 0.9999997912268402,
+    "median_final_out_rmse": 0.00011633349863744352,
+    "mean_final_out_correlation": 0.999989664581113
+  },
+  "per_T": {
+    "T_40": {
+      "row_count": 96,
+      "active_row_count": 22,
+      "silent_row_count": 74,
+      "python_saved_binary_exact": "96/96",
+      "python_saved_counts_exact": "96/96",
+      "ltspice_python_spike_count_exact": "96/96",
+      "mean_agreement_ltspice_python_all": 1.0,
+      "mean_agreement_ltspice_saved_all": 1.0,
+      "mean_agreement_ltspice_python_active": 1.0,
+      "mean_jaccard_ltspice_python_active": 1.0,
+      "ltspice_total_spikes": 38,
+      "python_total_spikes": 38,
+      "saved_total_spikes": 38
+    },
+    "T_80": {
+      "row_count": 96,
+      "active_row_count": 22,
+      "silent_row_count": 74,
+      "python_saved_binary_exact": "96/96",
+      "python_saved_counts_exact": "96/96",
+      "ltspice_python_spike_count_exact": "96/96",
+      "mean_agreement_ltspice_python_all": 1.0,
+      "mean_agreement_ltspice_saved_all": 1.0,
+      "mean_agreement_ltspice_python_active": 1.0,
+      "mean_jaccard_ltspice_python_active": 1.0,
+      "ltspice_total_spikes": 38,
+      "python_total_spikes": 38,
+      "saved_total_spikes": 38
+    },
+    "T_120": {
+      "row_count": 96,
+      "active_row_count": 22,
+      "silent_row_count": 74,
+      "python_saved_binary_exact": "96/96",
+      "python_saved_counts_exact": "96/96",
+      "ltspice_python_spike_count_exact": "96/96",
+      "mean_agreement_ltspice_python_all": 1.0,
+      "mean_agreement_ltspice_saved_all": 1.0,
+      "mean_agreement_ltspice_python_active": 1.0,
+      "mean_jaccard_ltspice_python_active": 1.0,
+      "ltspice_total_spikes": 38,
+      "python_total_spikes": 38,
+      "saved_total_spikes": 38
+    }
+  }
+}

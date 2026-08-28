@@ -1,0 +1,35 @@
+{
+  "random_seed": 42,
+  "window_count": 3,
+  "channels_per_window": 6,
+  "polarity_branch_count": 36,
+  "mapping": {
+    "idle_voltage": 0.7562,
+    "active_baseline_voltage": 1.8639,
+    "maximum_voltage": 3.7278,
+    "positive_endpoint": "per-channel p99",
+    "negative_endpoint": "absolute per-channel p1"
+  },
+  "ltspice_total_spikes": 69,
+  "python_total_spikes": 69,
+  "ltspice_active_branches": 25,
+  "python_active_branches": 25,
+  "ltspice_silent_branches": 11,
+  "python_silent_branches": 11,
+  "ltspice_mean_frequency_hz": 9.583333333333334,
+  "python_mean_frequency_hz": 9.583333333333334,
+  "exact_spike_count_branches": 36,
+  "exact_binary_branches": 36,
+  "mean_binary_agreement": 1.0,
+  "all_5ms_binary_spikes_exact": true,
+  "mean_final_out_rmse": 0.002004013424196496,
+  "mean_final_out_correlation": 0.9999331204811165,
+  "figure_files": [
+    "window_01_ltspice.png",
+    "window_01_python.png",
+    "window_02_ltspice.png",
+    "window_02_python.png",
+    "window_03_ltspice.png",
+    "window_03_python.png"
+  ]
+}
