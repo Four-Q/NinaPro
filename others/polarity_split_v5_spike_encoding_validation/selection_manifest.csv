@@ -1,0 +1,13 @@
+﻿label,raw_label,action_name_zh,split,row_index,subject,repetition,start_sample,selection_mode,selection_pool_size,saved_window_spike_count,active_original_channels,selected_original_channels
+0,1,食指屈曲,train,1685,2,4,7242,random_from_spiking_windows,2806,72,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,7;10;11;16
+1,2,食指伸展,train,3854,3,4,17764,random_from_spiking_windows,2023,59,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,2;8;12;15
+2,3,中指屈曲,train,12963,8,6,34891,random_from_spiking_windows,2573,55,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,3;8;9;12
+3,4,中指伸展,test,2759,4,2,38515,random_from_spiking_windows,1979,82,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,6;9;13;16
+4,5,无名指屈曲,train,2390,2,3,54255,random_from_spiking_windows,2250,68,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,1;8;13;14
+5,6,无名指伸展,train,4379,3,4,60736,random_from_spiking_windows,2286,66,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,2;6;10;14
+6,7,小指屈曲,test,417,1,2,67734,random_from_spiking_windows,2570,64,1;2;3;4;5;6;7;8;9;10;11;13;14;15;16,3;6;10;14
+7,8,小指伸展,train,15263,9,1,87807,random_from_spiking_windows,2187,71,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,3;11;15;16
+8,9,拇指内收,train,10299,6,6,110788,random_from_spiking_windows,1856,49,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,2;5;6;13
+9,10,拇指外展,train,13874,8,3,115712,random_from_spiking_windows,2272,65,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,2;6;8;10
+10,11,拇指屈曲,test,7685,9,2,126707,random_from_spiking_windows,1795,82,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,3;6;11;13
+11,12,拇指伸展,test,3336,4,2,142563,random_from_spiking_windows,2029,75,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16,7;11;13;14
