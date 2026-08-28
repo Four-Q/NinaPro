@@ -1,0 +1,15 @@
+{
+  "source_checkpoint": "runs/adaptive_moe_raw_v1/best.pt",
+  "evaluation": "original test DataLoader plus src.training.evaluate",
+  "results": [
+    {"radius": 0, "accuracy_percent": 56.6519, "macro_f1_percent": 56.7918},
+    {"radius": 4, "accuracy_percent": 73.8022, "macro_f1_percent": 74.0527},
+    {"radius": 8, "accuracy_percent": 79.1396, "macro_f1_percent": 79.1693},
+    {"radius": 12, "accuracy_percent": 82.3262, "macro_f1_percent": 82.1701},
+    {"radius": 16, "accuracy_percent": 83.1911, "macro_f1_percent": 82.9440},
+    {"radius": 20, "accuracy_percent": 82.5083},
+    {"radius": 24, "accuracy_percent": 81.4385},
+    {"radius": 28, "accuracy_percent": 79.7883},
+    {"radius": 32, "accuracy_percent": 78.3202}
+  ]
+}
